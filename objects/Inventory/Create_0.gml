@@ -14,3 +14,9 @@ for(var i = 0; i < invSize; i ++) {
 showInv = false;
 invx = display_get_gui_width()  - ((invSize / 2) * 32) - 8;
 invy = display_get_gui_height() - 72;
+
+maxInvWidth = 500;
+
+
+// TODO decide on the width of the inventory surface.
+inventorySurface = surface_create(maxInvWidth, 500);
