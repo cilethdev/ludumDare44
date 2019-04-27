@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "102787db-96f2-42c3-8005-7d6a7c6eaa09",
+            "Value": {
+                "id": "64bc2e6f-27fc-47fc-aad3-37bb928c1e38",
+                "resourcePath": "objects\\DungeonGenerator\\DungeonGenerator.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "116b42f4-32ec-46e0-9358-53e318471902",
             "Value": {
                 "id": "3afc3047-620c-4a67-8dad-ca9a6b733a2e",
@@ -1007,6 +1015,14 @@
             }
         },
         {
+            "Key": "908a92c3-84fa-4002-9da3-d71e8a8a541d",
+            "Value": {
+                "id": "535de120-b168-4581-83bf-f6ace4b8775d",
+                "resourcePath": "scripts\\GetMediumRoomType\\GetMediumRoomType.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "919eb0fd-d48d-42d8-8b76-1e249fd62a8f",
             "Value": {
                 "id": "74d4f96a-8ac4-43a9-b4e5-465af29a97cd",
@@ -1220,6 +1236,14 @@
                 "id": "c1b3b5d9-8dcb-40c9-a8c0-b2b11edf32c2",
                 "resourcePath": "objects\\spell_fireball_trail\\spell_fireball_trail.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "aef8e24b-5f16-46b8-a311-fe2694a7b940",
+            "Value": {
+                "id": "198fa071-aa75-4b2d-8fa0-cc860ef37e4c",
+                "resourcePath": "scripts\\GetSmallRoomType\\GetSmallRoomType.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1583,6 +1607,14 @@
             }
         },
         {
+            "Key": "dab41de5-3dcd-4970-a042-2b9094c86eb6",
+            "Value": {
+                "id": "18649f76-0eb4-444d-b469-2553a7e797b1",
+                "resourcePath": "views\\dab41de5-3dcd-4970-a042-2b9094c86eb6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "db9c5001-44e9-4924-aaf7-df3036f65a7f",
             "Value": {
                 "id": "a4ad9920-921b-4877-a3ba-b9aa626f2900",
@@ -1612,6 +1644,14 @@
                 "id": "9e94001f-aae1-4f28-b6b7-bb3dd55efdd6",
                 "resourcePath": "sprites\\spr_basicAttackTrail\\spr_basicAttackTrail.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "de7da10e-1f3e-40bb-83b6-858c07b413a0",
+            "Value": {
+                "id": "10d7fab8-6072-41b3-a067-04435360b850",
+                "resourcePath": "scripts\\GetLargeRoomType\\GetLargeRoomType.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1976,7 +2016,10 @@
         "fcd92281-4afe-424d-b5f8-0cce0fdfada6",
         "80e96f78-3f22-403b-8587-1cbb617c6367",
         "e4b1faa4-5526-42b1-a98e-2ccd0730a1d3",
-        "ebf36e21-36fc-4a60-bdd7-27dfd2a98d48"
+        "ebf36e21-36fc-4a60-bdd7-27dfd2a98d48",
+        "de7da10e-1f3e-40bb-83b6-858c07b413a0",
+        "908a92c3-84fa-4002-9da3-d71e8a8a541d",
+        "aef8e24b-5f16-46b8-a311-fe2694a7b940"
     ],
     "tutorial": ""
 }
