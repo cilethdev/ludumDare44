@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "199b703b-0958-4525-8283-ca52bd45083e",
+            "Value": {
+                "id": "366732fc-fae1-43eb-9a8f-90bd44ac1ab2",
+                "resourcePath": "sprites\\spr_heelies\\spr_heelies.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1ac96204-d126-4abf-be5a-2d0d4ae90e51",
             "Value": {
                 "id": "38313ff1-624b-418b-9c1b-c9832cbcfe0b",
@@ -1303,6 +1311,14 @@
             }
         },
         {
+            "Key": "b0686c19-48aa-474d-a2d4-3b23bcf945f1",
+            "Value": {
+                "id": "04134a70-d81d-43cd-9854-7cbd704defad",
+                "resourcePath": "sprites\\spr_silverSpoon\\spr_silverSpoon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b0f46ee8-73b3-4ab1-9a92-d34ded94e3d5",
             "Value": {
                 "id": "3d7183e5-aab2-4414-8fcc-dc86048a1690",
@@ -1316,6 +1332,14 @@
                 "id": "786638fb-f1a9-4353-ae6d-972d7cb64105",
                 "resourcePath": "objects\\spell_fireball_explosion_parts\\spell_fireball_explosion_parts.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b40101f8-84c6-4f33-b287-4d0d2e809f10",
+            "Value": {
+                "id": "ac8a1872-f185-4d3f-933f-829fc8f9be64",
+                "resourcePath": "sprites\\spr_skiMask\\spr_skiMask.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

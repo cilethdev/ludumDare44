@@ -5,13 +5,15 @@ enum items {
 	// defensive
 	crookedScale,
 	silverSpoon,
-	//skiMask, // 
+	skiMask, // 
 	//piggyBank, // 
 	//bloodMoney, //
 	
 	// offensive
 	
-	// 
+	// other
+	heelies,
+	
 	length
 }
 
