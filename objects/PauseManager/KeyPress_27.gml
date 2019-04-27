@@ -1,5 +1,5 @@
 /// @description 
-if (room != rm_test) {
+if (room != rm_test && room != level_1 && room != level_2 && room != level_3) {
 	exit;
 }
 

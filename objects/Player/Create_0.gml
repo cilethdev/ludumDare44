@@ -19,6 +19,7 @@ dashT = 0;
 dashDur = 12;
 
 // Spells
+wpn = instance_create_depth(x,y,depth,obj_staff)
 moveWhileCast = false;
 spell = 0;
 spellCastT = 0;

@@ -1,4 +1,4 @@
 type = bType.goto;
-rm = level_1;
+rm = level_3;
 text = "PLAY";
 menuPos = 0;
