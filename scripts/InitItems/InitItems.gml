@@ -1,23 +1,33 @@
-global.items[items.book,itemProps.name]		= "Spellbook";
-global.items[items.book,itemProps.desc]		= "";
-global.items[items.book,itemProps.sprite]	= spr_book;
+createBaseCollectible(items.book, "Spellbook", "", spr_book);
 global.items[items.book,itemProps.icon]		= spr_bookIcon;
-global.items[items.book,itemProps.hp]		= 0;
-global.items[items.book,itemProps.armor]	= 0;
-global.items[items.book,itemProps.ms]		= 0;
-global.items[items.sword,itemProps.ad]		= 0;
 global.items[items.book,itemProps.ap]		= 10;
 global.items[items.book,itemProps.cdr]		= 0.2;
 global.items[items.book,itemProps.ct]		= 0.1;
 
-global.items[items.sword,itemProps.name]	= "Sword";
-global.items[items.sword,itemProps.desc]	= "";
-global.items[items.sword,itemProps.sprite]	= spr_book;
+createBaseCollectible(items.sword,"Sword", "a sword", spr_book);
 global.items[items.sword,itemProps.icon]	= spr_bookIcon;
 global.items[items.sword,itemProps.hp]		= 10;
-global.items[items.sword,itemProps.armor]	= 0;
 global.items[items.sword,itemProps.ms]		= 0.1;
 global.items[items.sword,itemProps.ad]		= 3;
-global.items[items.sword,itemProps.ap]		= 0;
-global.items[items.sword,itemProps.cdr]		= 0;
-global.items[items.sword,itemProps.ct]		= 0;
+
+
+createBaseCollectible(items.crookedScale,"Crooked Scale", "The scale used by a successful and wily merchant.", spr_crookedScale);
+global.items[items.crookedScale,itemProps.armor] = 1;
+
+createBaseCollectible(items.silverSpoon, "Silver Spoon", "The spoon used to feed a royal carrot.  Or was it feeding carrots to a royal?", spr_book);
+global.items[items.silverSpoon, itemProps.atmBonus] = 100;
+
+
+
+
+
+
+
+
+
+
+// calculates the total rarity sum. this needs to stay after all item initiation.
+global.itemRaritySum = 0;
+for(var i = 0; i < items.length; i++){
+		global.itemRaritySum += global.items[i,itemProps.rarity];
+}

@@ -1,8 +1,8 @@
 {
-    "id": "e561984d-64fe-4ba6-9839-45c7c4be9552",
+    "id": "40044531-c966-459b-b7fd-2cbf10130980",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "InitItems",
+    "name": "createEmptyCollectible",
     "IsCompatibility": false,
     "IsDnD": false
 }

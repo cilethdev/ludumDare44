@@ -25,6 +25,10 @@ if (keyboard_check_pressed(ord("2"))) {
 	shakeZoom = 0.5;
 }
 
+if (keyboard_check_pressed(ord("3"))) {
+	instance_create_layer(mouse_x,mouse_y, "Instances", randomCollectible);
+}
+
 shake = Approach(shake,0,1/60);
 camx += shake * shakeMax * random_range(-1,1);
 camy += shake * shakeMax * random_range(-1,1);
