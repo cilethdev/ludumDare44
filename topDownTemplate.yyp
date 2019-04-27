@@ -999,6 +999,14 @@
             }
         },
         {
+            "Key": "889dd146-797c-4313-8475-aa767303e597",
+            "Value": {
+                "id": "c019b5b5-1852-4069-b8e0-e6925a691329",
+                "resourcePath": "scripts\\editItemInventory\\editItemInventory.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8b42d283-76d7-4872-b700-31129c391bf3",
             "Value": {
                 "id": "19aefccd-95a3-4683-8b3e-790bca564374",
@@ -2081,6 +2089,7 @@
         "295d9dd9-4561-4965-ace3-daebb31da536",
         "40044531-c966-459b-b7fd-2cbf10130980",
         "747aa02a-f601-4a5b-844f-de6263d38fac",
+        "889dd146-797c-4313-8475-aa767303e597",
         "c203d3db-7e5d-4cac-8f15-5ecdaa9fb8bb",
         "9d4f37c1-99d9-4b76-83b1-2b2ecfe006d9",
         "4f1accc2-cf85-45f9-a392-552776d385bc",

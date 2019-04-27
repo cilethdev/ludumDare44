@@ -18,7 +18,9 @@ if (itemIndex != -1) {
 	
 	// Drop item
 	var drop = instance_create_depth(x,y,depth-10,Item);
-		drop.item = inv.inv[itemIndex,invProps.item];
+		var t_item = inv.inv[itemIndex,invProps.item];
+		drop.sprite_index = global.items[t_item,itemProps.sprite];
+		drop.item = t_item;
 		drop.amount = inv.inv[itemIndex,invProps.amount];
 		
 	inv.inv[itemIndex,invProps.item] = -1;
