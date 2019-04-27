@@ -1,0 +1,14 @@
+spell[spells.fireBall, spellProps.name]		= "";
+spell[spells.fireBall, spellProps.desc]		= "";
+spell[spells.fireBall, spellProps.sprite]	= spr_spellPlaceholder;
+spell[spells.fireBall, spellProps.key]		= abilKeys.q;
+spell[spells.fireBall, spellProps.dmgType]	= dmgTypes.magic;
+spell[spells.fireBall, spellProps.baseDmg]	= 10;
+spell[spells.fireBall, spellProps.apRatio]	= 0.6;
+spell[spells.fireBall, spellProps.adRatio]	= 0;
+spell[spells.fireBall, spellProps.castType] = castTypes.cast;
+spell[spells.fireBall, spellProps.cd]		= room_speed * 8;
+spell[spells.fireBall, spellProps.ct]		= 90;
+spell[spells.fireBall, spellProps.cost]		= 0;
+spell[spells.fireBall, spellProps.scr]		= scr_fireball;
+spell[spells.fireBall, spellProps.canMove]  = false;

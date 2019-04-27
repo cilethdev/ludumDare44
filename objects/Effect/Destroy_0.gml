@@ -1,0 +1,2 @@
+/// @description 
+RemoveEffectModifier(id);

@@ -1,0 +1,2 @@
+/// @description 
+Lighting.visible = false;
