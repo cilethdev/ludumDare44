@@ -64,22 +64,26 @@ if (controller.kAtk1 && abilities.ability[abils.atk1,abilProp.canUse]) {
 	abilities.ability[abils.atk1,abilProp.canUse] = false;
 	
 	var aim = point_direction(x,y+z-16,mouse_x,mouse_y);
-	var fb = instance_create_depth(x,y-16+z,depth-1,spell_basicAttack);
-		fb.direction = aim;
+	var numProjectiles = max( floor(stats.stats[itemProps.projectiles] + 1) , 1);
+	var spread = 10;
+	var totalSpread = (numProjectiles-1) * spread;
+	for(var i = 0; i < numProjectiles; i++){
+		var fb = instance_create_depth(x,y-16+z,depth-1,spell_basicAttack);
+		fb.direction = aim - (totalSpread/2) + i*spread;
 		fb.speed = 8;
-		fb.image_angle = aim;
+		fb.image_angle = fb.direction;
 		fb.dmg = stats.stats[attr.ad];
+	}
 	
-	if (instance_exists(obj_staff)) {
-		with(obj_staff) {
-			state = ONPLAYER;
-			trailT = 180;
-			swingResetT = 90;
-			if (swingOffsetTarget == 0) {
-				swingOffsetTarget = 65;
-			}
-			swingOffsetTarget *= -1;
+		
+	with(obj_staff) {
+		state = ONPLAYER;
+		trailT = 180;
+		swingResetT = 90;
+		if (swingOffsetTarget == 0) {
+			swingOffsetTarget = 65;
 		}
+		swingOffsetTarget *= -1;
 	}
 }
 

@@ -1,8 +1,8 @@
 {
-    "id": "e7fde46b-5d52-4801-9262-1a68e2ba9f15",
+    "id": "6fd8e1b7-de6f-40c0-b201-45ecf038b705",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_aoeStun",
+    "name": "OnDeathLoot",
     "IsCompatibility": false,
     "IsDnD": false
 }

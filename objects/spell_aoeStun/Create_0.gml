@@ -1,5 +1,7 @@
 /// @description 
-dmg = 3;
+
+dmg = 0;
+splash =  80;
 
 instance_create_depth(x,y,depth-10,spell_aoeStun_effect);
 var splashList = ds_list_create();
