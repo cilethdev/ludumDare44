@@ -1,8 +1,8 @@
 {
-    "id": "94bd2091-8a7f-40da-b433-4854dfbd7fd3",
+    "id": "1033a013-3906-4c05-a0e9-0e4af01df26c",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "InitPlayerStats",
+    "name": "CalculateBonusFromInventory",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -1,3 +1,6 @@
+
+
+
 base[attr.hp,attrProp.key]		= "Health";
 base[attr.hp,attrProp.val]		= 50;
 base[attr.hp,attrProp.modType]	= modTypes.number;

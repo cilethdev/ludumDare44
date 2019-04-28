@@ -1,6 +1,6 @@
 /// @description 
 if (controller.kInteract) {
-	editItemInventory(inv.inventory,other.item,1);
+	editItemInventory(self,inv.inventory,other.item,1);
 	
 	
 	// below here is old code that will be deleted.
@@ -18,5 +18,4 @@ if (controller.kInteract) {
 			instance_destroy();
 		}
 	}
-	
 }

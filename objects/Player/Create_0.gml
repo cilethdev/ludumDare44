@@ -73,3 +73,6 @@ hud.playerStats = stats;
 hud.player = id;
 
 signal_connect_script("PlayerHit",id,PlayerHit);
+
+
+// additionalStats

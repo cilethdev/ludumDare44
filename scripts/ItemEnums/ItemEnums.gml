@@ -18,10 +18,6 @@ enum items {
 }
 
 enum itemProps {
-	name,
-	desc,
-	sprite,
-	icon,
 	hp,
 	armor,
 	ms, //move speed
@@ -31,9 +27,13 @@ enum itemProps {
 	ct, // cast time reduction 
 	atmBonus, // bonus money from the atm.
 	homing, // projectiles tendency to move towards nearest enemy
+	
+	
+	// excluded from stat calculation.
+	name,
+	desc,
+	sprite,
+	icon,
 	rarity, // the number of slots the item takes up when generating items. larger numbers are more common.
-	
-	
-	
-	length, // should always stay at the end of the arrray.
+	length // should always stay at the end of the arrray.
 }

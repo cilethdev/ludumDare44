@@ -1,7 +1,7 @@
-
-var inventory = argument0;  // this should be a ds_map
-var itemId = argument1;
-var itemChange = argument2; // can be 1 (add an item), -1 (remove an item), 0 (remove all items)
+var player = argument0;
+var inventory = argument1;  // this should be a ds_map
+var itemId = argument2;
+var itemChange = argument3; // can be 1 (add an item), -1 (remove an item), 0 (remove all items)
 
 var itemCount = inventory[?itemId];
 if( is_undefined(itemCount)){
@@ -30,3 +30,5 @@ else { // the id is defined.
 	}
 }
 
+player.hpMax += 1; // todo remove this line.
+// should instead have a function here or something that updates all the users stats.
