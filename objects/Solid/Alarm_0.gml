@@ -12,25 +12,41 @@ d = place_meeting(x,y+1,Solid);
 
 switch(floorDir) {
 	case fDir.left:
-		image_index = sSpr.urSide;
+		if (u || d) {
+			image_index = sSpr.ulSide;
+		}
+		if (!l && r && u && !d) {
+			image_index = sSpr.wall;
+		}
+		if (!l && r && !u && d) {
+			image_index = sSpr.utlCorner;
+		}
 	break;
 	case fDir.right:
-		image_index = sSpr.ulSide;
+		if (u || d) {
+			image_index = sSpr.urSide;
+		}
+		if (l && !r && u && !d) {
+			image_index = sSpr.wall;
+		}
+		if (l && !r && !u && d) {
+			image_index = sSpr.utrCorner;
+		}
 	break;
 	case fDir.up:
-		image_index = sSpr.utSide;
+		// top side cases
+		if (l || r) {
+			image_index = sSpr.utSide;
+		}
+		// Top corners
+		if (l && !r && !u && d) {
+			image_index = sSpr.utrCorner;
+		}
+		if (!l && r && !u && d) {
+			image_index = sSpr.utlCorner;
+		}
 	break;
 	case fDir.down:
-		//if (l && r && !u && !d) {
-		//	image_index = sSpr.wall;
-		//}
-		//// Corners
-		//if (l && !r && u && !d) {
-		//	image_index = sSpr.wall;
-		//}
-		//if (!l && r && u && !d) {
-		//	image_index = sSpr.wall;
-		//}
 		image_index = sSpr.wall;
 	break;
 }
