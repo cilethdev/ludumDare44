@@ -14,6 +14,6 @@ global.items[itemId,itemProps.cdr]		= 0;
 global.items[itemId,itemProps.ct]		= 0;
 global.items[itemId,itemProps.atmBonus] = 0;
 global.items[itemId,itemProps.homing]	= 0;
-global.items[itemId,itemProps.rarity]	= 3; // this will definitly have to be tweaked im just making something up here.
+global.items[itemId,itemProps.rarity]	= 15; // this will definitly have to be tweaked im just making something up here.
 global.items[itemId,itemProps.value]	= 10;
 // im thinking that there should maybe be a rarity stat.
