@@ -28,4 +28,11 @@ if (instance_exists(Player)) {
 		draw_sprite_ext(spr_castBar,1,cx/2-60,cy-56,(Player.spellCastT/Player.spellCastTMax),1,0,c_white,1);
 		draw_sprite(spr_castBar,2,cx/2-60,cy-56);
 	}
+	
+	
+	// Key
+	if (Player.hasKey) {
+		draw_sprite_ext(spr_key,0,32,64,1,1,0,c_white,1);
+	}
 }
+

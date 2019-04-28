@@ -1,7 +1,6 @@
 /// @description 
 
-// Inherit the parent event
-event_inherited();
+depth = -y;
 
 drawOpen = false;
 open = false;
