@@ -13,3 +13,6 @@ moveSpd = 1.4;
 
 dmg = 5;
 dmgType = "light";
+
+runSprite = spr_goblin;
+idleSprite = spr_goblin;

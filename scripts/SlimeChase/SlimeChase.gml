@@ -16,8 +16,6 @@ if (!instance_exists(Player)) {
 		yscale = 1.35;
 	}
 	
-	facing = Player.x > x ? 1 : -1;
-	
 	if (distance_to_object(Player) < attackRange && !collision_line(x,y,Player.x,Player.y-16,Solid,false,true)) {
 		if (!attack) {
 			attack = true;

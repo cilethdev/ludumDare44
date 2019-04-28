@@ -15,3 +15,6 @@ vJump = -5.5;
 
 dmg = 10;
 dmgType = "medium";
+
+runSprite = spr_bigSlime;
+idleSprite = spr_bigSlime;

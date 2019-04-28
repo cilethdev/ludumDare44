@@ -12,6 +12,7 @@ attack = false;
 attackDur = 0;
 attackCD = 0;
 canHit = true;
+facing = 1;
 
 frozenAction = EnemyFrozen;
 
@@ -24,3 +25,6 @@ pathCheckT = irandom(15);
 movePath = path_add();
 vx = 0;
 vy = 0;
+z = 0;
+xscale = 1;
+yscale = 1;

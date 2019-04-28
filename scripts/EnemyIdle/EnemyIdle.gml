@@ -1,6 +1,7 @@
 if (sm_onEnter(state)) {
 	vx = 0;
 	vy = 0;
+	sprite_index = idleSprite;
 }
 
 checkDisT = (checkDisT + 1) mod 15;

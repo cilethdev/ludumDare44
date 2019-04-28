@@ -8,7 +8,7 @@ with(other) {
 		
 		
 	hitFlash = 8;
-	hitStun = 120;
+	hitStun = 40;
 	sm_change(state, frozenAction);
 }
 

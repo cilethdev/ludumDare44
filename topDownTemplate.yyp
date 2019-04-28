@@ -79,11 +79,27 @@
             }
         },
         {
+            "Key": "065d8c40-e01a-4a2b-a859-c6a113876588",
+            "Value": {
+                "id": "5d2c590a-3af8-45d5-96cd-b2e0801bda89",
+                "resourcePath": "scripts\\MimicAttack\\MimicAttack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0740b313-8902-4545-97be-d0339eb82ec1",
             "Value": {
                 "id": "a15542bf-7832-4d94-a975-5e69158ee741",
                 "resourcePath": "views\/0740b313-8902-4545-97be-d0339eb82ec1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "081bf81f-b453-4830-a340-568fa0f6c39d",
+            "Value": {
+                "id": "8f056ae3-eb77-44f5-9335-a73c08413320",
+                "resourcePath": "objects\\Mimic\\Mimic.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -567,14 +583,6 @@
             }
         },
         {
-            "Key": "3cbc28b4-229b-4730-8416-1f10c287ad27",
-            "Value": {
-                "id": "cbd25511-61d8-4523-9e74-5d05139faae5",
-                "resourcePath": "views\/3cbc28b4-229b-4730-8416-1f10c287ad27.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "3ecdc712-2779-4cbf-a794-bf67217e25a0",
             "Value": {
                 "id": "78ec9754-080b-404a-9ec5-ba353395acc9",
@@ -604,6 +612,14 @@
                 "id": "7a4d7f53-13dd-4208-b9ce-0eb9d4a6cadc",
                 "resourcePath": "objects\/PauseManager\/PauseManager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "41c0423d-7e37-4b2c-baed-0205a197ed39",
+            "Value": {
+                "id": "4037cf3e-4c24-4b8e-8bd3-7d6471175ebd",
+                "resourcePath": "sprites\\spr_troll_idle\\spr_troll_idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -951,19 +967,19 @@
             }
         },
         {
+            "Key": "620e201d-7dde-40a7-af0e-3a4d09426a43",
+            "Value": {
+                "id": "49748551-6e28-4d81-92e6-4055765218ba",
+                "resourcePath": "sprites\\spr_goblin\\spr_goblin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "631c35c2-43a5-4c6f-aa82-f3f201efcabf",
             "Value": {
                 "id": "57e2e278-1ece-42ce-a9b2-a721a5d97074",
                 "resourcePath": "views\/631c35c2-43a5-4c6f-aa82-f3f201efcabf.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "638a7762-259a-480d-8d2e-897acc6d5bc0",
-            "Value": {
-                "id": "005a863b-8dc5-44d9-885d-66378fefec0f",
-                "resourcePath": "objects\/ChestMimic\/ChestMimic.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -988,6 +1004,14 @@
                 "id": "67d16caa-ec53-4754-a66f-767a1775d1fa",
                 "resourcePath": "views\/64c15e38-5caf-4dd4-bc4e-e30a692ef2b6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6534441a-046e-4e56-b6ec-250664d57aea",
+            "Value": {
+                "id": "f2fedc31-050f-4c7d-8468-4b233feb0a9f",
+                "resourcePath": "scripts\\MimicIdle\\MimicIdle.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1159,6 +1183,14 @@
             }
         },
         {
+            "Key": "7b5b59b7-d3e9-4806-946f-383da7c5d7a5",
+            "Value": {
+                "id": "e9a39b85-3c2c-4a0d-be65-7a0fe51e4e1c",
+                "resourcePath": "scripts\\MimicChase\\MimicChase.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7c475256-3c2e-4705-93c7-0ff3544caadd",
             "Value": {
                 "id": "19388437-1098-45c2-837c-f6048a4d1279",
@@ -1196,22 +1228,6 @@
                 "id": "73903277-d9b7-4878-a957-8aecf87863d7",
                 "resourcePath": "views\/81661329-f68d-44fd-8bd9-2bebb3e114d1.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "8266d918-9856-4fde-85b3-5f74a59f292b",
-            "Value": {
-                "id": "e86267fe-6b24-4f53-aa2f-67bdcefc22d6",
-                "resourcePath": "scripts\/ChestMimicIdle\/ChestMimicIdle.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "83e68d8a-eb54-45e8-8586-40180e6360cd",
-            "Value": {
-                "id": "b59f1ca0-89e0-4ea7-9d7a-c8e136892243",
-                "resourcePath": "scripts\/ChestMimicAttack\/ChestMimicAttack.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -1268,14 +1284,6 @@
                 "id": "fb6ffed9-a84b-4910-a84d-e0b14bd40462",
                 "resourcePath": "objects\\boss_orb\\boss_orb.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "89d7dd4b-a2c5-49ef-9eed-494f88a457b5",
-            "Value": {
-                "id": "5c6f1d65-4cad-4e68-bf76-440fa479344d",
-                "resourcePath": "scripts\/InitChestMimic\/InitChestMimic.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -1338,7 +1346,7 @@
             "Key": "8ef408c1-867b-4cc7-8f04-9e0624ca2090",
             "Value": {
                 "id": "1c4828db-f482-4b87-9fb2-6989f8af1483",
-                "resourcePath": "objects\/Dummy\/Dummy.yy",
+                "resourcePath": "objects\\Troll\\Troll.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1487,26 +1495,10 @@
             }
         },
         {
-            "Key": "9ebb6333-f7f4-477b-b77e-1a9f8136ba30",
-            "Value": {
-                "id": "8fce77a1-77ad-42fe-b50a-8dfd4e14591b",
-                "resourcePath": "scripts\/ChestMimicChase\/ChestMimicChase.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "a0437e60-d1f7-4e84-b42c-8c5af8474eeb",
             "Value": {
                 "id": "a2f2fb70-0bfa-4183-ba9f-d51cda55f489",
                 "resourcePath": "sprites\/spr_walls\/spr_walls.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "a087750d-41b5-439a-a03d-7eeae3e6af85",
-            "Value": {
-                "id": "33d9f7eb-7120-4d76-86d3-5568d3ee74f6",
-                "resourcePath": "sprites\/spr_dummy\/spr_dummy.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1634,7 +1626,7 @@
             "Key": "ae2dbbb1-882d-49e5-a19d-2ed63a24c3a6",
             "Value": {
                 "id": "a91c3dc9-8960-4ff9-b575-d93756cf64f3",
-                "resourcePath": "sprites\/spr_goblin\/spr_goblin.yy",
+                "resourcePath": "sprites\\spr_troll_run\\spr_troll_run.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1743,6 +1735,14 @@
             }
         },
         {
+            "Key": "b962e13d-eb9b-4220-a480-7cc4217bba9e",
+            "Value": {
+                "id": "5a4b264a-5cbf-4e85-a0c2-3b4b8129cd90",
+                "resourcePath": "views\\b962e13d-eb9b-4220-a480-7cc4217bba9e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b9dbff21-5925-4675-8ad9-4402e4699258",
             "Value": {
                 "id": "f2a016c1-6ff5-4380-aea7-fb905e8d049d",
@@ -1847,11 +1847,27 @@
             }
         },
         {
+            "Key": "c2a74151-0def-448f-b11f-70706fc9efd8",
+            "Value": {
+                "id": "b382e529-d673-43ac-a3cd-ecc46c9d4ee8",
+                "resourcePath": "sprites\\spr_mimic\\spr_mimic.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c2b5d170-1ab2-41e1-a687-b602920ee2a8",
             "Value": {
                 "id": "b3f487a1-495d-4c06-a448-a4dd67906ff9",
                 "resourcePath": "views\/c2b5d170-1ab2-41e1-a687-b602920ee2a8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c2cd90dd-f75a-4f01-bf00-991384eb7b9f",
+            "Value": {
+                "id": "4c6824dd-25b7-45b1-b457-bcf6fc7e340e",
+                "resourcePath": "scripts\\MimicWarmup\\MimicWarmup.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2047,6 +2063,14 @@
             }
         },
         {
+            "Key": "d4218a61-ca21-4705-b886-18f5286c3b08",
+            "Value": {
+                "id": "0026107d-2934-4937-a438-2985cd3a6227",
+                "resourcePath": "scripts\\MimicVelocity\\MimicVelocity.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d5ab275c-80d1-476e-9e1c-f5902b26b8b6",
             "Value": {
                 "id": "00e8fa2f-ab34-4543-a184-76c873cc3d8c",
@@ -2092,6 +2116,14 @@
                 "id": "18649f76-0eb4-444d-b469-2553a7e797b1",
                 "resourcePath": "views\/dab41de5-3dcd-4970-a042-2b9094c86eb6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "db5b9070-29bd-4ca4-a531-8387fcdfc14c",
+            "Value": {
+                "id": "4b8f68fa-e388-43dc-b914-212e33a6c7a8",
+                "resourcePath": "scripts\\MimicFrozen\\MimicFrozen.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2501,22 +2533,6 @@
                 "resourcePath": "objects\/Mute\/Mute.yy",
                 "resourceType": "GMObject"
             }
-        },
-        {
-            "Key": "fef7ea1e-cf6e-4e87-9350-a2ac7f472c49",
-            "Value": {
-                "id": "66502e7e-c9e4-4bd0-a34c-2800ad7683c3",
-                "resourcePath": "scripts\/ChestMimicVelocity\/ChestMimicVelocity.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "ff827cd1-fcfd-4c49-93c9-04f1662a48a0",
-            "Value": {
-                "id": "53a9e2a7-b859-4b10-ac8e-3f8a9b45c6e3",
-                "resourcePath": "scripts\/ChestMimicFrozen\/ChestMimicFrozen.yy",
-                "resourceType": "GMScript"
-            }
         }
     ],
     "script_order": [
@@ -2584,12 +2600,6 @@
         "ee44ce87-7ce6-4d4d-ba4e-011f80865d1e",
         "ee92228d-422b-4024-8a93-abaeaf45d07a",
         "79a7142e-82e7-4491-88db-8aefad6e5fea",
-        "89d7dd4b-a2c5-49ef-9eed-494f88a457b5",
-        "83e68d8a-eb54-45e8-8586-40180e6360cd",
-        "8266d918-9856-4fde-85b3-5f74a59f292b",
-        "9ebb6333-f7f4-477b-b77e-1a9f8136ba30",
-        "fef7ea1e-cf6e-4e87-9350-a2ac7f472c49",
-        "ff827cd1-fcfd-4c49-93c9-04f1662a48a0",
         "33c154a3-6cb2-4836-a141-92b569770db8",
         "95851541-3a5b-468e-ac34-594e146114ad",
         "f3eae7f4-6ceb-41f2-bea2-5f9c11af4807",
@@ -2597,6 +2607,12 @@
         "b66f372b-72c1-4075-83ab-72d9074c6975",
         "88363c73-b302-42d9-8575-01de22afcaac",
         "849f55aa-2a98-4580-b159-848827d74144",
+        "7b5b59b7-d3e9-4806-946f-383da7c5d7a5",
+        "6534441a-046e-4e56-b6ec-250664d57aea",
+        "d4218a61-ca21-4705-b886-18f5286c3b08",
+        "065d8c40-e01a-4a2b-a859-c6a113876588",
+        "db5b9070-29bd-4ca4-a531-8387fcdfc14c",
+        "c2cd90dd-f75a-4f01-bf00-991384eb7b9f",
         "fcd92281-4afe-424d-b5f8-0cce0fdfada6",
         "80e96f78-3f22-403b-8587-1cbb617c6367",
         "e4b1faa4-5526-42b1-a98e-2ccd0730a1d3",

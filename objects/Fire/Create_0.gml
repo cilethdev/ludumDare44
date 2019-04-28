@@ -13,3 +13,6 @@ moveSpd = 1.4;
 
 dmg = 9;
 dmgType = "medium";
+
+runSprite = spr_fire;
+idleSprite = spr_fire;

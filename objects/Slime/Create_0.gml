@@ -27,3 +27,6 @@ dmg = 2;
 dmgType = "light";
 
 frozenAction = SlimeFrozen;
+
+runSprite = spr_slime;
+idleSprite = spr_slime;

@@ -52,8 +52,8 @@ if (instance_exists(spell_fireball_ember)) {
 	}
 }
 
-if (instance_exists(Dummy)) {
-	with(Dummy) {
+if (instance_exists(Troll)) {
+	with(Troll) {
 		draw_circle_color(x-cx,y-16-cy,96,c_gray,c_black,false);
 	}
 }

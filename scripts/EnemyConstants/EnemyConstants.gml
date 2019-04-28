@@ -15,7 +15,7 @@ enum enemyMaxHealth {
 	boss = 100
 }
 
-#macro randomEnemy choose(Fire, Goblin, BigSlime, Slime, Dummy, Flamethrower)
-#macro randomBossEnemy choose(Goblin, Slime, Dummy)
+#macro randomEnemy choose(Fire, Goblin, BigSlime, Slime, Troll, Flamethrower)
+#macro randomBossEnemy choose(Goblin, Slime, Troll)
 
 

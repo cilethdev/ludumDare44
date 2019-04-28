@@ -1,5 +1,6 @@
 if (sm_onEnter(state)) {
 	pathCheckT = 1;
+	sprite_index = runSprite;
 }
 
 if (!instance_exists(Player)) {

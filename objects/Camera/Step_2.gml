@@ -20,7 +20,7 @@ if (instance_exists(Player)) {
 }
 
 if(keyboard_check_pressed(ord("1"))) {
-	instance_create_layer(mouse_x,mouse_y,"Instances",Dummy);
+	instance_create_layer(mouse_x,mouse_y,"Instances",Mimic);
 }
 
 if (keyboard_check_pressed(ord("2"))) {

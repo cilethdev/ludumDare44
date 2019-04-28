@@ -17,3 +17,5 @@ repeat(abs(vy)) {
 		break;
 	}
 }
+
+facing = Player.x > x ? 1 : -1;

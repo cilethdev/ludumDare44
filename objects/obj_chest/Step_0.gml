@@ -9,7 +9,9 @@ if (collision_rectangle(x-48,y-32,x+48,y+48,Player,false,true)){
 	
 	if (InputManager.kInteract && !open) {
 		if (isMimic) {
-			instance_create_depth(x, y, depth, ChestMimic);
+			open = true;
+			drawOpen = false;
+			instance_create_depth(x, y, -y, Mimic);
 			instance_destroy();
 		} else {
 			open = true;
