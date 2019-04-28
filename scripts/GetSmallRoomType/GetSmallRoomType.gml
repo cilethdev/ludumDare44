@@ -1,11 +1,14 @@
+if (!exitCreated) {
+	exitCreated = true;
+	return rmTypes.exitLevel;
+}
+
 var chance = irandom_range(0,100);
 if (specialRoomCount >= 2) {
 	return rmTypes.enemy;
 } else {
-	if (chance < 50) {
+	if (chance < 30) {
 		specialRoomCount++;
-		show_debug_message("SHOP");
-		return rmTypes.chest;
 		return choose(rmTypes.gamble,rmTypes.shop,rmTypes.chest);
 	}
 	else {

@@ -6,7 +6,7 @@ enum rmBase {
 }
 enum rmTypes {
 	spawn,
-	locked,
+	exitLevel,
 	key,
 	enemy,
 	chest,
@@ -40,6 +40,7 @@ ds_list_add(roomList,rmSpawn);
 ds_grid_set_region(level,rmSpawn[? "x"],rmSpawn[? "y"],rmSpawn[? "x"]+rmSpawn[? "w"],rmSpawn[? "y"]+rmSpawn[?"h"],1);
 
 specialRoomCount = 0;
+exitCreated = false;
 
 // Add bigger rooms connected to spawn
 var orientation = irandom(3); // 0: r u l; 1: u l d; 2: l d r; 3: d r u;
@@ -224,8 +225,33 @@ for(var i = 0; i < levelw; i++) {
 	}
 }
 
-// Fog
-instance_create_depth(0,0,0,FogController);
+// find key room
+
+// Get exit
+var rmExit = -1;
+for(var i = 0; i < ds_list_size(roomList); i++) {
+	var cRm = roomList[| i];
+	if (cRm[? "type"] == rmTypes.exitLevel) {
+		rmExit = cRm;
+		break;
+	}
+}
+// Find furthest small room
+var keyRm = -1;
+var furthest = 0;
+for(var i = 0; i < ds_list_size(roomList); i++) {
+	var cRm = roomList[| i];
+	if (cRm[? "base"] == rmBase.small && cRm != rmExit) {
+		var dis = point_distance(rmExit[?"cx"],rmExit[?"cy"],cRm[?"cx"],cRm[?"cy"]);
+		if (dis > furthest) {
+			furthest = dis;
+			keyRm = cRm;
+		}
+	}
+}
+keyRm[? "type"] = rmTypes.key;
+
+
 
 // Rooms
 for(var i = 0; i < ds_list_size(roomList); i++) {
@@ -257,8 +283,14 @@ for(var i = 0; i < ds_list_size(roomList); i++) {
 		break;
 		case rmBase.small:
 			// center light
-			var cl = instance_create_layer(cRm[? "cx"]*GRID,cRm[? "cy"]*GRID,"Lights",obj_light);
+			if (cRm[? "type"] = rmTypes.exitLevel) {
+				var cl = instance_create_layer(cRm[? "cx"]*GRID,cRm[? "cy"]*GRID,"Lights",obj_light);
+				cl.col = 75;
+				cl.scale = 2.5;
+			} else {
+				var cl = instance_create_layer(cRm[? "cx"]*GRID,cRm[? "cy"]*GRID,"Lights",obj_light);
 			cl.scale = 2.5;
+			}
 		break;
 	}
 	
@@ -278,6 +310,14 @@ for(var i = 0; i < ds_list_size(roomList); i++) {
 			}
 			
 			break;
+		case rmTypes.exitLevel:
+			show_debug_message("EXIT CREATED");
+			instance_create_layer(cRm[? "cx"]*GRID,cRm[? "cy"]*GRID,"Instances",LevelTeleporter);
+			break;
+		case rmTypes.key:
+			show_debug_message("KEY CREATED");
+			instance_create_layer(cRm[? "cx"]*GRID,cRm[? "cy"]*GRID,"Instances",obj_key);
+			break;
 		case rmTypes.shop:
 			instance_create_layer(cRm[? "cx"]*GRID,cRm[? "cy"]*GRID,"Instances",Item);
 			break;
@@ -289,6 +329,8 @@ for(var i = 0; i < ds_list_size(roomList); i++) {
 
 
 
+// Fog
+instance_create_depth(0,0,0,FogController);
 instance_create_depth(0,0,0,MoveGrid);
 instance_create_layer(rmSpawn[? "cx"]*GRID,rmSpawn[? "cy"]*GRID,"Instances",Player);
 Camera.camx = Player.x-Camera.camw/2;
