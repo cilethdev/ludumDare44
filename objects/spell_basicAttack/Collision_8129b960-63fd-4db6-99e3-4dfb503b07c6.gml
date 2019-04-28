@@ -9,7 +9,7 @@ with(other) {
 		
 	hitFlash = 8;
 	hitStun = 120;
-	sm_change(state,EnemyFrozen);
+	sm_change(state, frozenAction);
 }
 
 instance_destroy();

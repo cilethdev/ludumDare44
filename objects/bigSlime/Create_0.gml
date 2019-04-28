@@ -8,12 +8,10 @@ depth = -y;
 attackRange = 12;
 attack = false;
 attackDur = 10;
-attackCD = 20;
+attackCD = 100;
 
-moveSpd = 0.9;
+moveSpd = 0.5;
+vJump = -5.5;
 
-// Combat vars
-canHit = true;
-
-dmg = 7;
+dmg = 10;
 dmgType = "medium";

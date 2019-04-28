@@ -2,6 +2,13 @@
 
 depth = -y;
 
+var mimicChance = irandom(100);
+
+if (mimicChance) {
+	isMimic = true;
+} else {
+	isMimic = false;
+}
 drawOpen = false;
 open = false;
 image_speed = 0;

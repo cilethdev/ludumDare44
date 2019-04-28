@@ -312,13 +312,15 @@ for(var i = 0; i < ds_list_size(roomList); i++) {
 			if (cRm[? "base"] == rmBase.large) {
 				numEnemies += 3;
 			}
+
 			
 			repeat(numEnemies) {
+				var randomEnemy = choose(Fire, Goblin, BigSlime, Slime, Dummy);
 				instance_create_layer(
 				(cRm[? "x"] + irandom(cRm[? "w"]-2)+1)*GRID,
 				(cRm[? "y"] + irandom(cRm[? "h"]-2)+1)*GRID,
 				"Instances",
-				Dummy);
+				randomEnemy);
 			}
 			
 			break;
