@@ -12,8 +12,8 @@ if (!instance_exists(Player)) {
 		vz = vJump;
 	
 		// VFX
-		xscale = 0.85;
-		yscale = 1.35;
+		xscale = 0.5;
+		yscale = 1.5;
 	}
 	
 	facing = Player.x > x ? 1 : -1;
@@ -53,4 +53,5 @@ if (!instance_exists(Player)) {
 if (sm_onExit(state)) {
 	path_end();
 	image_blend = c_white;
+	
 }

@@ -42,6 +42,8 @@ xscale = 1;
 yscale = 1;
 hitFlash = 0;
 hitFlashT = 0;
+destroyT = 0;
+dead = false;
 
 // Lighting
 lightCol = make_colour_hsv(40,0,175);

@@ -5,7 +5,7 @@ if (sm_onEnter(state)) {
 if (!instance_exists(Player)) {
 	sm_change(state,EnemyIdle);
 } else {
-	if (debug) image_blend = c_red;
+	//if (debug) image_blend = c_red;
 	if (distance_to_object(Player) < attackRange && !collision_line(x,y,Player.x,Player.y-16,Solid,false,true)) {
 		if (!attack) {
 			attack = true;

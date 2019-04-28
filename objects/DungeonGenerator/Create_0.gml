@@ -11,7 +11,8 @@ enum rmTypes {
 	enemy,
 	chest,
 	shop,
-	gamble
+	gamble,
+	heal
 }
 #macro GRID 32
 
@@ -315,7 +316,7 @@ for(var i = 0; i < ds_list_size(roomList); i++) {
 
 			
 			repeat(numEnemies) {
-				var randomEnemy = choose(Fire, Goblin, BigSlime, Slime, Dummy);
+				var randomEnemy = GetRandomEnemy();//choose(Fire, Goblin, BigSlime, Slime, Dummy);
 				instance_create_layer(
 				(cRm[? "x"] + irandom(cRm[? "w"]-2)+1)*GRID,
 				(cRm[? "y"] + irandom(cRm[? "h"]-2)+1)*GRID,

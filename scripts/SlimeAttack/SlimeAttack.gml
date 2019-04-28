@@ -1,10 +1,12 @@
 if (sm_onEnter(state)) {
-	var pdir = point_direction(x,y,Player.x,Player.y);
-	spd = moveSpd * 10;
-	vx  = lengthdir_x(spd, pdir);
-	vy	= lengthdir_y(spd, pdir);
-	dashT = attackDur;
-	dashing = true;
+	if (instance_exists(Player)) {
+		var pdir = point_direction(x,y,Player.x,Player.y);
+		spd = moveSpd * 10;
+		vx  = lengthdir_x(spd, pdir);
+		vy	= lengthdir_y(spd, pdir);
+		dashT = attackDur;
+		dashing = true;
+	}
 }
 
 if (dashT) {

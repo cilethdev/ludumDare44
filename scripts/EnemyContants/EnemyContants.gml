@@ -3,6 +3,7 @@ enum enemyBaseHealth {
 	small = 5,
 	medium = 9,
 	large = 15,
+	mimic = 30,
 	
 	boss = 100
 }
