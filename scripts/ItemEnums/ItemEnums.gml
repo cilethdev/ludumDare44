@@ -14,6 +14,8 @@ enum items {
 	// other
 	heelies,
 	
+	twoDollarBill,
+	
 	length
 }
 

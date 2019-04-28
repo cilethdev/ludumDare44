@@ -1383,6 +1383,14 @@
             }
         },
         {
+            "Key": "8c1d9889-8d92-4e7c-a042-501b700d6a0c",
+            "Value": {
+                "id": "1a29250f-2a79-4130-90ce-e812ac30f151",
+                "resourcePath": "sprites\\spr_twoDollarBill\\spr_twoDollarBill.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8c92fdd4-ba60-4606-b335-d29f71435116",
             "Value": {
                 "id": "7b8c1536-60e8-4d58-8f44-274b57320e4d",

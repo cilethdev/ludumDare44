@@ -1,9 +1,11 @@
 /// @description 
-dmg = 3;
+
+dmg = 0;
+splash =  80;
 
 instance_create_depth(x,y,depth-10,spell_aoeStun_effect);
 var splashList = ds_list_create();
-var n = collision_circle_list(x,y,80,par_enemy,false,true,splashList,false);
+var n = collision_circle_list(x,y,splash,par_enemy,false,true,splashList,false);
 for(var i = 0; i < ds_list_size(splashList); i ++) {
 	with(splashList[|i]) {
 		hp -= other.dmg;
