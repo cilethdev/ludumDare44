@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "4ddc3a69-e240-4fe3-9b2d-63ba1bed0d5a",
+            "Value": {
+                "id": "c2c0a84b-4c79-473a-bad1-6f0a7d988fff",
+                "resourcePath": "sprites\\spr_sword\\spr_sword.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4e27f696-6ac9-4d30-9147-f5ba279d4e9e",
             "Value": {
                 "id": "6ae381ac-c1a9-44ba-909e-4685186fd709",
@@ -1127,18 +1135,18 @@
             }
         },
         {
-            "Key": "747aa02a-f601-4a5b-844f-de6263d38fac",
-            "Value": {
-                "id": "5a1c8dc4-6bfa-4958-a262-0bf69ee5b80a",
-                "resourcePath": "scripts\\createBaseCollectible\\createBaseCollectible.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "731205bc-ef8e-4d0b-943d-0787543ebef9",
             "Value": {
                 "id": "22852665-c459-45ff-a833-ecf3cf60ac9c",
                 "resourcePath": "scripts\\scr_makeItRain\\scr_makeItRain.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "747aa02a-f601-4a5b-844f-de6263d38fac",
+            "Value": {
+                "id": "5a1c8dc4-6bfa-4958-a262-0bf69ee5b80a",
+                "resourcePath": "scripts\\createBaseCollectible\\createBaseCollectible.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1447,19 +1455,19 @@
             }
         },
         {
-            "Key": "96b763bd-94b8-4060-9b94-3d9723c92fe5",
-            "Value": {
-                "id": "dd8676e0-5652-46bd-8aee-c132480d9634",
-                "resourcePath": "sprites\\spr_crookedScale\\spr_crookedScale.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "959afe97-2504-4bf9-9d53-128d3fbf0d41",
             "Value": {
                 "id": "6f0621bc-b815-46b2-b7ca-13603141eef5",
                 "resourcePath": "views\\959afe97-2504-4bf9-9d53-128d3fbf0d41.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "96b763bd-94b8-4060-9b94-3d9723c92fe5",
+            "Value": {
+                "id": "dd8676e0-5652-46bd-8aee-c132480d9634",
+                "resourcePath": "sprites\\spr_crookedScale\\spr_crookedScale.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1695,18 +1703,18 @@
             }
         },
         {
-            "Key": "ae2dbbb1-882d-49e5-a19d-2ed63a24c3a6",
-            "Value": {
-                "id": "a91c3dc9-8960-4ff9-b575-d93756cf64f3",
-                "resourcePath": "sprites\/spr_goblin\/spr_goblin.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "adfb5811-24d1-438a-b385-13913c0071b8",
             "Value": {
                 "id": "46308c64-45f2-4884-842b-db553ec1a0d5",
                 "resourcePath": "sprites\\spr_coinShieldPart\\spr_coinShieldPart.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ae2dbbb1-882d-49e5-a19d-2ed63a24c3a6",
+            "Value": {
+                "id": "a91c3dc9-8960-4ff9-b575-d93756cf64f3",
+                "resourcePath": "sprites\/spr_goblin\/spr_goblin.yy",
                 "resourceType": "GMSprite"
             }
         },

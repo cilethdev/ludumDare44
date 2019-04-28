@@ -4,7 +4,7 @@ global.items[items.book,itemProps.ap]		= 10;
 global.items[items.book,itemProps.cdr]		= 0.2;
 global.items[items.book,itemProps.ct]		= 0.1;
 
-createBaseCollectible(items.sword,"Sword", "a sword", spr_book);
+createBaseCollectible(items.sword,"Sword", "a sword", spr_sword);
 global.items[items.sword,itemProps.icon]	= spr_bookIcon;
 global.items[items.sword,itemProps.hp]		= 10;
 global.items[items.sword,itemProps.ms]		= 0.1;
