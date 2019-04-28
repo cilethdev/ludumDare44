@@ -58,7 +58,7 @@ if (controller.kDashP && onGround) {
 
 // Basic attack
 if (controller.kAtk1 && abilities.ability[abils.atk1,abilProp.canUse]) {
-	abilities.ability[abils.atk1,abilProp.cdT] = abilities.ability[abils.atk1,abilProp.cd];
+	abilities.ability[abils.atk1,abilProp.cdT] = abilities.ability[abils.atk1,abilProp.cd]; // TODO firerate
 	abilities.ability[abils.atk1,abilProp.canUse] = false;
 	
 	var aim = point_direction(x,y+z-16,mouse_x,mouse_y);

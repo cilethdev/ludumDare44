@@ -6,7 +6,7 @@ draw_set_valign(fa_middle);
 for(var i = 0; i < 6; i++) {
 	draw_sprite_ext(spr_invSlot,0,posx+(i*32),posy,1,1,0,c_white,1);
 	draw_sprite_ext(spr_spellPlaceholder,0,posx+(i*32),posy,1,1,0,c_white,1);
-	
+	var abilityTime = ability[i,abilProp.cdT];
 	if (ability[i,abilProp.cdT] > 0) {
 		draw_sprite_ext(spr_invSlot,0,posx+(i*32),posy,1,1,0,c_black,0.5);
 		var cdText = string_format(ability[i,abilProp.cdT] / 60,1,1);

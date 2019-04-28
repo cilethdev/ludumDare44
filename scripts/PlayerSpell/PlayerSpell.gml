@@ -24,10 +24,10 @@ if (spellCastT > 0) {
 		
 	
 	abilities.ability[currentAbility,abilProp.canUse] = false;
-	show_debug_message(string(max( floor(abilities.ability[currentAbility,abilProp.cd] - (stats.stats[itemProps.cdr]/20.0* abilities.ability[currentAbility,abilProp.cd])), 1)));
+	show_debug_message(string(max( floor(abilities.ability[currentAbility,abilProp.cd] - (stats.stats[itemProps.cdr]* abilities.ability[currentAbility,abilProp.cd])), 1)));
 	show_debug_message(string(abilities.ability[currentAbility,abilProp.cd] ));
 	show_debug_message(string(stats.stats[itemProps.cdr]));
-	abilities.ability[currentAbility,abilProp.cdT] = max( floor(abilities.ability[currentAbility,abilProp.cd] - (stats.stats[itemProps.cdr]/20.0* abilities.ability[currentAbility,abilProp.cd])), 1);
+	abilities.ability[currentAbility,abilProp.cdT] = max( floor(abilities.ability[currentAbility,abilProp.cd] - (stats.stats[itemProps.cdr]* abilities.ability[currentAbility,abilProp.cd])), 1);
 	sm_change(state,PlayerNormal);
 }
 
