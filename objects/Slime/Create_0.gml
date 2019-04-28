@@ -15,5 +15,5 @@ moveSpd = 1;
 // Combat vars
 canHit = true;
 
-dmg = 5;
+dmg = 2;
 dmgType = "light";

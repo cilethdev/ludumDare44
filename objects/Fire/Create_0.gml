@@ -5,15 +5,10 @@ hpMax = enemyMaxHealth.medium;
 depth = -y;
 
 // attack
-attackRange = 12;
+attackRange = 6;
 attack = false;
-attackDur = 10;
-attackCD = 20;
 
-moveSpd = 0.6;
+moveSpd = 1.4;
 
-// Combat vars
-canHit = true;
-
-dmg = 4;
+dmg = 9;
 dmgType = "medium";

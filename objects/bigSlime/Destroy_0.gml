@@ -1,11 +1,9 @@
 /// @description
-// drop a second coin with the same chance as the first
+instance_create_depth(x + 6, y + 7,depth,Slime);
+instance_create_depth(x - 5, y + 2,depth,Slime);
 var drop = irandom(100);
 if (drop <= 20) {
-	// drop two coins
-	instance_create_depth(x,y,depth,coin);
-	instance_create_depth(x,y,depth,coin);
-} else {
-	instance_create_depth(x,y,depth,coin);
+	// randomly create a third slime
+	instance_create_depth(x - 6, y - 3,depth,Slime);
 }
 	

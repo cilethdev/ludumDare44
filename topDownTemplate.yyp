@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0d009267-7f5f-4020-9c31-bc0429aff239",
+            "Value": {
+                "id": "5ea037bf-59f6-4f94-be48-8f7f7a9a5476",
+                "resourcePath": "objects\\Goblin\\Goblin.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0d26cddb-abd4-4532-b69f-685cf3ebc15b",
             "Value": {
                 "id": "0ca91306-a0b5-415a-9e99-29a365da50bb",
@@ -124,6 +132,14 @@
                 "id": "7fe05a5a-37c0-4a51-a739-c0c13bc055d8",
                 "resourcePath": "views\\0ed9aec3-0984-45ef-bfb2-f4b0e9344914.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1007fb06-e28e-481c-be09-dee6674719f8",
+            "Value": {
+                "id": "cee4d7c4-ebe8-474c-b63c-b8811b8a69ba",
+                "resourcePath": "objects\\HurtfulEnemy\\HurtfulEnemy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -455,6 +471,14 @@
             }
         },
         {
+            "Key": "3f353d22-89c1-4981-ae58-0fab5c3fbb7e",
+            "Value": {
+                "id": "74bcfde8-8c07-42b6-b3c0-1f3b652a2f62",
+                "resourcePath": "scripts\\EnemyNoOp\\EnemyNoOp.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "403b2f3b-0dad-4828-a62e-239298ed3532",
             "Value": {
                 "id": "e35c499e-9744-46b3-ac09-f4899e721d3f",
@@ -767,6 +791,14 @@
             }
         },
         {
+            "Key": "638a7762-259a-480d-8d2e-897acc6d5bc0",
+            "Value": {
+                "id": "005a863b-8dc5-44d9-885d-66378fefec0f",
+                "resourcePath": "objects\\ChestMimic\\ChestMimic.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "638e2633-b407-4de6-8b4b-5ad42d506043",
             "Value": {
                 "id": "28e1a422-4987-4136-b8dc-479aa9073cfa",
@@ -843,6 +875,14 @@
             "Value": {
                 "id": "41bffd0e-8bd2-4111-bbb5-791dd2301975",
                 "resourcePath": "objects\\coin\\coin.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6d7680ef-88d7-4984-a994-c8d2b227a700",
+            "Value": {
+                "id": "9037bd86-9e67-43f6-a233-6f9b9aba3ffa",
+                "resourcePath": "objects\\MeleeEnemy\\MeleeEnemy.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1159,6 +1199,14 @@
             }
         },
         {
+            "Key": "996b0370-d87b-4abd-b417-529d53d1c787",
+            "Value": {
+                "id": "d6fa81d0-30fe-44d0-9a50-65248c049db5",
+                "resourcePath": "scripts\\EnemyMelee\\EnemyMelee.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9a3499af-fe56-454d-a992-41917679db26",
             "Value": {
                 "id": "92465f9f-8942-4076-ad8c-0a0d33bdf3c8",
@@ -1247,6 +1295,14 @@
             }
         },
         {
+            "Key": "a88e0c61-9e90-438d-a434-544fb314dd93",
+            "Value": {
+                "id": "35d68c01-1d68-4da8-8bc7-cc3344272b4d",
+                "resourcePath": "sprites\\spr_fire\\spr_fire.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "31090ab6-d8ae-4cb5-bda0-0ca42f395e0f",
@@ -1300,6 +1356,14 @@
                 "id": "7a859841-2491-4b5e-8e13-aa188d162246",
                 "resourcePath": "objects\\obj_orbPart\\obj_orbPart.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ae2dbbb1-882d-49e5-a19d-2ed63a24c3a6",
+            "Value": {
+                "id": "a91c3dc9-8960-4ff9-b575-d93756cf64f3",
+                "resourcePath": "sprites\\spr_goblin\\spr_goblin.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1911,6 +1975,14 @@
             }
         },
         {
+            "Key": "ee16d41e-88a8-4ca0-95f0-ffd6fb8e25d8",
+            "Value": {
+                "id": "1b305825-e5ae-4322-be76-8fe8fc7cc02b",
+                "resourcePath": "objects\\Fire\\Fire.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ef7c8a9e-f2be-4726-9553-8c24c420e030",
             "Value": {
                 "id": "c456fc66-b7f1-4778-af25-08397f86d3e4",
@@ -2111,6 +2183,8 @@
         "4a5e6ff1-4fa3-4a70-9f30-b03eed539389",
         "7681db13-c271-425d-a566-0a940a33cc1d",
         "58e9586a-b0ff-4e67-9579-7fb1c72abb6e",
+        "996b0370-d87b-4abd-b417-529d53d1c787",
+        "3f353d22-89c1-4981-ae58-0fab5c3fbb7e",
         "aead1724-3b2b-4770-92dc-9ecf3b474a0d",
         "fcd92281-4afe-424d-b5f8-0cce0fdfada6",
         "80e96f78-3f22-403b-8587-1cbb617c6367",
