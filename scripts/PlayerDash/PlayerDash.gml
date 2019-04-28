@@ -7,6 +7,7 @@ if (sm_onEnter(state)) {
 	vy	= lengthdir_y(vDash,dir);
 	dashT = dashDur;
 	
+	sprite_index = spr_heroDash;
 }
 
 	CamShake(0.2,0.2,0.1);

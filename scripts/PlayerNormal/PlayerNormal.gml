@@ -4,8 +4,10 @@ if (sm_onEnter(state)) {
 GetMoveDir();
 
 if (controller.kLeft || controller.kRight || controller.kUp || controller.kDown) {
+	sprite_index = spr_heroRun;
 	spd = Approach(spd,stats.stats[itemProps.ms],acc);
 } else {
+	sprite_index = spr_heroIdle;
 	spd = Approach(spd,0,fric);
 }
 

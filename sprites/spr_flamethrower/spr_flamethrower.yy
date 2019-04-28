@@ -2,7 +2,7 @@
     "id": "572ef2dc-31c2-439a-86e7-61cbcc8c2aed",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite16",
+    "name": "spr_flamethrower",
     "For3D": false,
     "HTile": false,
     "VTile": false,

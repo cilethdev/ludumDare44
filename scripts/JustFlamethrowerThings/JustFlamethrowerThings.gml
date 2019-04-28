@@ -1,0 +1,1 @@
+image_angle = currAngle mod 360;
