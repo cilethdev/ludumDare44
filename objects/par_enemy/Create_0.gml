@@ -27,3 +27,10 @@ vy = 0;
 
 xscale = 1;
 yscale = 1;
+
+// loot variables
+maxMoney = 5;
+moneyDropRate = 0.8;
+
+maxLoot = 1;
+lootDropRate = 0.5;

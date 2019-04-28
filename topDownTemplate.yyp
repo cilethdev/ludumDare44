@@ -1135,6 +1135,14 @@
             }
         },
         {
+            "Key": "6fd8e1b7-de6f-40c0-b201-45ecf038b705",
+            "Value": {
+                "id": "129a53ad-9e95-4867-8cce-2de2e7403417",
+                "resourcePath": "scripts\\OnDeathLoot\\OnDeathLoot.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6febe797-07d7-49e8-861d-fa38e22ca833",
             "Value": {
                 "id": "0e156fac-3da3-4464-aa77-f667ff06a9ba",
@@ -2798,6 +2806,7 @@
         "9ebb6333-f7f4-477b-b77e-1a9f8136ba30",
         "fef7ea1e-cf6e-4e87-9350-a2ac7f472c49",
         "ff827cd1-fcfd-4c49-93c9-04f1662a48a0",
+        "6fd8e1b7-de6f-40c0-b201-45ecf038b705",
         "fcd92281-4afe-424d-b5f8-0cce0fdfada6",
         "80e96f78-3f22-403b-8587-1cbb617c6367",
         "e4b1faa4-5526-42b1-a98e-2ccd0730a1d3",
@@ -2806,7 +2815,8 @@
         "908a92c3-84fa-4002-9da3-d71e8a8a541d",
         "aef8e24b-5f16-46b8-a311-fe2694a7b940",
         "6949239a-6346-46b6-9418-dee3f7d72af7",
-        "32666174-5fe2-4079-95d5-1b2c94d061c8"
+        "32666174-5fe2-4079-95d5-1b2c94d061c8",
+        "a19cb43c-ce91-42a5-89b2-0efb59ff1041"
     ],
     "tutorial": ""
 }
