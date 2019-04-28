@@ -25,7 +25,7 @@ if (instance_exists(Player)) {
 
 if (instance_exists(obj_light)) {
 	with(obj_light) {
-		draw_sprite_ext(spr_light,0,x-cx,y-cy,2,2,0,col,1);
+		draw_sprite_ext(spr_light,0,x-cx,y-cy,scale,scale,0,col,1);
 	}
 }
 

@@ -40,6 +40,5 @@ if (!instance_exists(Player)) {
 
 if (sm_onExit(state)) {
 	path_end();
-	attackCD = 90;
 	image_blend = c_white;
 }

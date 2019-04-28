@@ -6,8 +6,20 @@ hitStun = 0;
 hitFlash = 0;
 state = sm_init(EnemyIdle);
 checkDisT = irandom(15);
-aggroRange = 256;
-fireCD = 90;
+aggroRange = 1024;
+attackRange = 0;
+attackCD = 90;
+attack = false;
+attackDur = 0;
+attackCD = 0;
+
+frozenAction = EnemyFrozen;
+
+dmg = 1;
+dmgType = "light";
+
+moveSpd = 1;
+
 pathCheckT = irandom(15);
 movePath = path_add();
 vx = 0;

@@ -1,4 +1,8 @@
-var atk = choose(0,1);
+var atk = argument0
+if (!atk) {
+	atk = choose(0,1);
+}
+
 if (atk == 0) {
 var pdir = point_direction(x,y-16,Player.x,Player.y-16);
 var b = instance_create_depth(x,y,-10000,obj_orb);
@@ -15,4 +19,4 @@ if (atk == 1) {
 		b.image_yscale = s;
 	}
 }
-sm_change(state,EnemyIdle);
+sm_change(state, EnemyIdle);

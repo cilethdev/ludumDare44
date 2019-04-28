@@ -1,4 +1,8 @@
 /// @description 
+if (keyboard_check_pressed(ord("X"))) {
+	
+}
+
 if (instance_exists(Player)) {
 	var pdir = point_direction(Player.x,Player.y-16,mouse_x,mouse_y);
 	var dis = max(0,min(64,point_distance(Player.x,Player.y-16,mouse_x,mouse_y)));

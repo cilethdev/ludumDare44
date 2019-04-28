@@ -5,7 +5,8 @@ hpMax = enemyMaxHealth.medium;
 depth = -y;
 
 // attack
-attackRange = 6;
+aggroRange = 64;
+attackRange = 256;
 attack = false;
 
 moveSpd = 1.4;

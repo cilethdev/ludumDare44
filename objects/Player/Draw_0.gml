@@ -10,10 +10,10 @@ if (hitFlash) {
 }
 
 
-var mdir = point_direction(x,y-16,mouse_x,mouse_y);
-var ys = mouse_x > x ? 1 : -1;
-var ldx = lengthdir_x(16,mdir);
-var ldy = lengthdir_y(16,mdir);
-draw_sprite_ext(spr_staff,0,x+ldx,y-16+ldy+z,1,ys,mdir+(-15*ys),c_white,1);
+//var mdir = point_direction(x,y-16,mouse_x,mouse_y);
+//var ys = mouse_x > x ? 1 : -1;
+//var ldx = lengthdir_x(18,mdir);
+//var ldy = lengthdir_y(18,mdir);
+//draw_sprite_ext(spr_staff,0,x+ldx,y-16+ldy+z,1,ys,mdir+(-15*ys),c_white,1);
 
-draw_text(x,bbox_top-32,string(moveSpd));
+//draw_text(x,bbox_top-32,string(moveSpd));

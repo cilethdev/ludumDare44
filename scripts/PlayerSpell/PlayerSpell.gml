@@ -7,6 +7,7 @@ if (sm_onEnter(state)) {
 	lightCol = make_colour_hsv(32,125,255);	
 	lightRadius = 128;
 
+	sprite_index = spr_heroIdle;
 }
 
 spd = Approach(spd,0,fric);
