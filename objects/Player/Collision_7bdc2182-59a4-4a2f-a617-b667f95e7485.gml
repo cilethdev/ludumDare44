@@ -1,4 +1,5 @@
-/// @description 
+/// @description
+if (!other.canPickup) { exit; };
 if (controller.kInteract) {
 	editItemInventory(self,inv.inventory,other.item,1);
 	with(other) {

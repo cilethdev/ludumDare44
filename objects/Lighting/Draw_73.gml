@@ -35,6 +35,7 @@ if (instance_exists(spell_fireball)) {
 	}
 }
 
+// SPELLS
 if (instance_exists(spell_fireball_explosion)) {
 	with(spell_fireball_explosion) {
 		draw_sprite_ext(spr_light,0,x-cx,y-cy,1.5,1.5,0,image_blend,1);
@@ -52,6 +53,13 @@ if (instance_exists(spell_fireball_ember)) {
 	}
 }
 
+if (instance_exists(spell_coinShieldCoin)) {
+	with(spell_coinShieldCoin) {
+		draw_sprite_ext(spr_light,0,x-cx,y-cy,0.5,0.5,0,lightCol,1);
+	}
+}
+
+// ENEMIES
 if (instance_exists(Dummy)) {
 	with(Dummy) {
 		draw_circle_color(x-cx,y-16-cy,96,c_gray,c_black,false);
@@ -66,6 +74,18 @@ if (instance_exists(obj_orb)) {
 
 if (instance_exists(Item)) {
 	with(Item) {
+		draw_circle_color(x+16-cx,y+16-cy,48,lightCol,c_black,false);
+	}
+}
+
+if (instance_exists(obj_shop)) {
+	with(obj_shop) {
+		draw_circle_color(x-cx+32,y+32-cy,128,c_gray,c_black,false);
+	}
+}
+
+if (instance_exists(obj_shopItem)) {
+	with(obj_shopItem) {
 		draw_circle_color(x+16-cx,y+16-cy,48,lightCol,c_black,false);
 	}
 }

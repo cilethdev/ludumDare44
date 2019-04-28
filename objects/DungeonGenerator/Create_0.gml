@@ -334,7 +334,7 @@ for(var i = 0; i < ds_list_size(roomList); i++) {
 				key.rm = cRm;
 			break;
 		case rmTypes.shop:
-			instance_create_layer(cRm[? "cx"]*GRID,cRm[? "cy"]*GRID,"Instances",Item);
+			instance_create_layer(cRm[? "cx"]*GRID-GRID,cRm[? "cy"]*GRID,"Instances",obj_shop);
 			break;
 		case rmTypes.chest:
 			instance_create_layer(cRm[? "cx"]*GRID,cRm[? "cy"]*GRID+32,"Instances",obj_chest);

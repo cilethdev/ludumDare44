@@ -1,5 +1,8 @@
 enum spells {
-	fireBall
+	fireBall,
+	aoeStun,
+	coinShield,
+	makeItRain
 }
 
 enum spellProps {
