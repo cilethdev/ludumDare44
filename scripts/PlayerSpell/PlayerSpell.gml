@@ -22,7 +22,7 @@ if (spellCastT > 0) {
 	//	fb.speed = 8;
 	//	fb.image_angle = targetDir;
 	//	fb.dmg = round(5 + (ap * 0.75));
-	script_execute(abilities.spell[abilities.ability[abils.spell1,abilProp.spell],spellProps.scr])
+	script_execute(abilities.spell[abilities.ability[currentAbility,abilProp.spell],spellProps.scr])
 		
 	
 	abilities.ability[currentAbility,abilProp.canUse] = false;

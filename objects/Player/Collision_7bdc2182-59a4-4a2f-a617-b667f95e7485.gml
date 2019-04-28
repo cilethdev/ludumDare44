@@ -1,4 +1,5 @@
-/// @description 
+/// @description
+if (!other.canPickup) { exit; };
 if (controller.kInteract) {
 	var openIndex = -1;
 	for(var i = 0; i < array_height_2d(inv.inv); i++) {
