@@ -66,6 +66,20 @@ if (instance_exists(Dummy)) {
 	}
 }
 
+if (instance_exists(Slime)) {
+	with(Slime) {
+		draw_circle_color(x-cx,y-16-cy,96,c_green,c_black,false);
+	}
+}
+
+if (instance_exists(bigSlime)) {
+	with(bigSlime) {
+		draw_circle_color(x-cx,y-16-cy,128,c_aqua,c_black,false);
+	}
+}
+
+
+
 if (instance_exists(obj_orb)) {
 	with(obj_orb) {
 		draw_circle_color(x-cx,y-cy,48,c_red,c_black,false);
