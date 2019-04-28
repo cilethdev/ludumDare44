@@ -13,8 +13,8 @@ enum items {
 	
 	// other
 	heelies,
-	
 	twoDollarBill,
+	magnet,
 	
 	length
 }

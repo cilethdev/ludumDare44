@@ -1887,6 +1887,14 @@
             }
         },
         {
+            "Key": "b8c5b9de-3b57-40c7-802e-9f1135ab8eaa",
+            "Value": {
+                "id": "ed571d48-b656-4b3b-acba-55c4a7969212",
+                "resourcePath": "sprites\\spr_magnet\\spr_magnet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b955b563-6d81-49a5-a32b-8ce36e47e2d4",
             "Value": {
                 "id": "589cd729-6044-4f32-87a9-ea9c06820243",
