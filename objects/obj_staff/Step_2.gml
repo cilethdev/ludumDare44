@@ -43,15 +43,15 @@ if (!instance_exists(owner)) {
 	
 }
 
-if (mouse_check_button_pressed(mb_left)) {
-	state = ONPLAYER;
-	trailT = 180;
-	swingResetT = 90;
-	if (swingOffsetTarget == 0) {
-		swingOffsetTarget = 65;
-	}
-	swingOffsetTarget *= -1;
-}
+//if (mouse_check_button_pressed(mb_left)) {
+//	state = ONPLAYER;
+//	trailT = 180;
+//	swingResetT = 90;
+//	if (swingOffsetTarget == 0) {
+//		swingOffsetTarget = 65;
+//	}
+//	swingOffsetTarget *= -1;
+//}
 
 if (swingResetT > 0) {
 	swingResetT--;

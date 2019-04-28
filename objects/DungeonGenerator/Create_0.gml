@@ -59,10 +59,10 @@ while(ds_list_size(rmSpawn[? "connected"]) < 3 && iterations > 0) {
 	var xx,yy,w,h;
 	w = irandom_range(14,18);
 	h = irandom_range(14,18);
-	xx = cx - w/2;
-	yy = cy - w/2;
+	xx = floor(cx - w/2);
+	yy = floor(cy - w/2);
 	
-	var collision = ds_grid_get_sum(level,xx-2,yy-2,xx+w+2,yy+h+2);
+	var collision = ds_grid_get_sum(level,xx-3,yy-3,xx+w+3,yy+h+3);
 	if (collision > 0) {
 		iterations--;
 		continue;
@@ -109,10 +109,10 @@ for(var i = 0; i < ds_list_size(lrgRmList); i++) {
 		var xx,yy,w,h;
 		w = irandom_range(8,10);
 		h = irandom_range(8,10);
-		xx = cx - w/2;
-		yy = cy - w/2;
+		xx = floor(cx - w/2);
+		yy = floor(cy - w/2);
 	
-		var collision = ds_grid_get_sum(level,xx-2,yy-2,xx+w+2,yy+h+2);
+		var collision = ds_grid_get_sum(level,xx-3,yy-3,xx+w+3,yy+h+3);
 		if (collision > 0) {
 			iterations--;
 			continue;
@@ -206,16 +206,28 @@ for(var i = 0; i < levelw; i++) {
 	for(var j = 0; j < levelh; j++) {
 		if (level[# i,j] == 1) {
 			if (level[# i+1,j] == 0) {
-				instance_create_depth((i+1)*GRID,j*GRID,0,Solid);
-			}
+				if (!position_meeting((i+1)*GRID,j*GRID,Solid)) {
+					var sl = instance_create_depth((i+1)*GRID,j*GRID,0,Solid);
+						sl.floorDir = fDir.left;
+				}
+			} 
 			if (level[# i-1,j] == 0) {
-				instance_create_depth((i-1)*GRID,j*GRID,0,Solid);
-			}
+				if (!position_meeting((i-1)*GRID,j*GRID,Solid)) {
+					var sl = instance_create_depth((i-1)*GRID,j*GRID,0,Solid);
+						sl.floorDir = fDir.right;
+				}
+			} 
 			if (level[# i,j+1] == 0) {
-				instance_create_depth(i*GRID,(j+1)*GRID,0,Solid);
-			}
+				if (!position_meeting(i*GRID,(j+1)*GRID,Solid)) {
+					var sl = instance_create_depth(i*GRID,(j+1)*GRID,0,Solid);
+						sl.floorDir = fDir.up;
+				}
+			} 
 			if (level[# i,j-1] == 0) {
-				instance_create_depth(i*GRID,(j-1)*GRID,0,Solid);
+				if (!position_meeting(i*GRID,(j-1)*GRID,Solid)) {
+					var sl = instance_create_depth(i*GRID,(j-1)*GRID,0,Solid);
+						sl.floorDir = fDir.down;
+				}
 			}
 			
 			var index = irandom(100) < 4 ? 8 : irandom_range(1,7);
@@ -318,7 +330,8 @@ for(var i = 0; i < ds_list_size(roomList); i++) {
 			break;
 		case rmTypes.key:
 			show_debug_message("KEY CREATED");
-			instance_create_layer(cRm[? "cx"]*GRID,cRm[? "cy"]*GRID,"Instances",obj_key);
+			var key = instance_create_layer(cRm[? "cx"]*GRID,cRm[? "cy"]*GRID,"Instances",obj_key);
+				key.rm = cRm;
 			break;
 		case rmTypes.shop:
 			instance_create_layer(cRm[? "cx"]*GRID,cRm[? "cy"]*GRID,"Instances",Item);
@@ -359,52 +372,3 @@ for(var i = 0; i < levelw; i++) {
 }
 
 surface_reset_target();
-
-
-//var rooms = 1;
-//iterations = 10000;
-//while(rooms < roomCount && iterations > 0) {
-//	var xx,yy,w,h,type;
-//	if (rooms < 4) {
-//		xx = irandom_range(8,72);
-//		yy = irandom_range(8,72);
-//		h = irandom_range(20,24);
-//		w = irandom_range(20,24);
-//		type = GetLargeRoomType();
-//	}
-//	else if (rooms < 7) {
-//		xx = irandom_range(0,80);
-//		yy = irandom_range(0,80);
-//		w = irandom_range(14,20);
-//		h = irandom_range(14,20);
-//		type = GetMediumRoomType();
-//	}
-//	else {
-//		xx = irandom_range(0,80);
-//		yy = irandom_range(0,80);
-//		w = irandom_range(10,18);
-//		h = irandom_range(10,18);
-//		type = GetSmallRoomType();
-//	}
-	
-//	var collision = ds_grid_get_sum(level,xx,yy,xx+w,yy+h);
-//	if (collision > 0) {
-//		iterations--;
-//		continue;
-//	}
-	
-//	var rm = ds_map_create();
-//	rm[? "id"] = rooms;
-//	rm[? "type"] = type;
-//	rm[? "x"] = xx;
-//	rm[? "y"] = yy;
-//	rm[? "w"] = w;
-//	rm[? "h"] = h;
-//	rm[? "cx"] = floor(xx+(w/2));
-//	rm[? "cy"] = floor(yy+(w/2));
-	
-//	ds_list_add(roomList,rm);
-//	ds_grid_set_region(level, rm[? "x"],rm[? "y"],rm[? "x"]+rm[? "w"],rm[? "y"]+rm[? "h"],type);
-	
-//	rooms++;
-//}

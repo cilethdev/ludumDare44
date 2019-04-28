@@ -346,18 +346,7 @@
             "Key": "0fb7d919-9023-41da-8a29-4beb5b4263d8",
             "Value": {
                 "id": "b82f6fa0-3321-4d65-8a9f-4e2881131bfb",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "sprites\/spr_floorTile\/spr_floorTile.yy",
+                "resourcePath": "sprites\\spr_blocker\\spr_blocker.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2337,6 +2326,14 @@
             }
         },
         {
+            "Key": "6949239a-6346-46b6-9418-dee3f7d72af7",
+            "Value": {
+                "id": "db4326a6-b01e-4fef-b2f4-6cf4b5c4ed39",
+                "resourcePath": "scripts\\SolidTilesEnum\\SolidTilesEnum.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6a8a250b-d2ce-4871-b58a-783dcc76be16",
             "Value": {
                 "id": "41bffd0e-8bd2-4111-bbb5-791dd2301975",
@@ -3276,18 +3273,7 @@
             "Key": "9b37f5ef-ba7c-4451-8034-9a006c646795",
             "Value": {
                 "id": "0f215329-ef05-425f-9eee-668997894fe9",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "objects\/Tile\/Tile.yy",
+                "resourcePath": "objects\\Blocker\\Blocker.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -3832,11 +3818,11 @@
             }
         },
         {
-            "Key": "b40101f8-84c6-4f33-b287-4d0d2e809f10",
+            "Key": "b298a46d-5bef-4657-99d5-9b817feb5fc2",
             "Value": {
-                "id": "ac8a1872-f185-4d3f-933f-829fc8f9be64",
-                "resourcePath": "sprites\\spr_skiMask\\spr_skiMask.yy",
-                "resourceType": "GMSprite"
+                "id": "0000907a-26ae-4496-a937-7c002500c4c7",
+                "resourcePath": "tilesets\\ts_walls\\ts_walls.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -5850,6 +5836,7 @@
         "de7da10e-1f3e-40bb-83b6-858c07b413a0",
         "908a92c3-84fa-4002-9da3-d71e8a8a541d",
         "aef8e24b-5f16-46b8-a311-fe2694a7b940",
+        "6949239a-6346-46b6-9418-dee3f7d72af7",
         "32666174-5fe2-4079-95d5-1b2c94d061c8"
     ],
     "tutorial": ""

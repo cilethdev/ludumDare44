@@ -79,3 +79,5 @@ signal_connect_script("PlayerHit",id,PlayerHit);
 
 
 // additionalStats
+// Dungeon flags
+hasKey = false;

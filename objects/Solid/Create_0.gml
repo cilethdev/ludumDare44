@@ -1,5 +1,5 @@
 /// @description 
 depth = -y;
-if (place_meeting(x,y,Solid)) {
-	instance_destroy();
-}
+alarm[0] = 1;
+image_speed = 0;
+floorDir = -1;
