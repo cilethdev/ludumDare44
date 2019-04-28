@@ -1,7 +1,7 @@
 /// @description 
 event_inherited();
-hp = enemyBaseHealth.medium;
-hpMax = enemyMaxHealth.medium;
+hp = enemyBaseHealth.large;
+hpMax = enemyMaxHealth.large;
 depth = -y;
 
 // attack

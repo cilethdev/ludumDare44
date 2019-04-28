@@ -5,4 +5,5 @@ if (hp <= 0) {
 	}
 }
 
+show_debug_message(sm_getCurrentString(state));
 sm_execute(state);

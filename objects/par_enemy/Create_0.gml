@@ -8,10 +8,10 @@ state = sm_init(EnemyIdle);
 checkDisT = irandom(15);
 aggroRange = 1024;
 attackRange = 0;
-attackCD = 90;
 attack = false;
 attackDur = 0;
 attackCD = 0;
+canHit = true;
 
 frozenAction = EnemyFrozen;
 

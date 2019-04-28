@@ -16,5 +16,5 @@ if (sm_onEnter(state)) {
 		b.image_xscale = s;
 		b.image_yscale = s;
 	}
-	sm_change(state, ChestMimicIdle);
+	sm_change(state, ChestMimicChase);
 }

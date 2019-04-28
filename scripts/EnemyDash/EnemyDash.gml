@@ -5,11 +5,13 @@ if (sm_onEnter(state)) {
 	vy	= lengthdir_y(spd, pdir);
 	dashT = attackDur;
 	dashing = true;
+	canHit = false;
 }
 
 if (dashT) {
 	dashT--;
 } else {
+	canHit = true;
 	dashing = false;
 	sm_change(state, EnemyIdle);
 }

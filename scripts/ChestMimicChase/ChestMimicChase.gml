@@ -3,17 +3,15 @@ if (sm_onEnter(state)) {
 }
 
 if (!instance_exists(Player)) {
-	sm_change(state,ChestMimicIdle);
+	sm_change(state,EnemyIdle);
 } else {
 	if (debug) image_blend = c_red;
-	
 	facing = Player.x > x ? 1 : -1;
-	
 	if (distance_to_object(Player) < attackRange && !collision_line(x,y,Player.x,Player.y-16,Solid,false,true)) {
 		if (!attack) {
 			attack = true;
 			attackCDT = attackCD;
-			sm_change(state, ChestMimicAttack)
+			sm_change(state, attackType)
 		}
 		path_end()
 	}
