@@ -14,10 +14,14 @@ for(var i = 0; i < invSize; i ++) {
 inventory = ds_map_create();
 
 showInv = false;
-invx = display_get_gui_width()  - ((invSize / 2) * 32) - 8;
-invy = display_get_gui_height() - 72;
-
 maxInvWidth = 500;
+
+topSpace = 200;
+
+invx = display_get_gui_width()  - maxInvWidth;
+invy = display_get_gui_height() - 72 - topSpace;
+
+
 
 
 // TODO decide on the width of the inventory surface.
