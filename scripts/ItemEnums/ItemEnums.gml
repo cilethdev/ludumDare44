@@ -35,6 +35,7 @@ enum itemProps {
 	explodDmg, // damage of explosion.
 	accuracy, // randomness of shot.
 	wave, // bullet stream waves back and forth.
+	value, // the base value of the item
 		
 	
 	// excluded from stat calculation.
