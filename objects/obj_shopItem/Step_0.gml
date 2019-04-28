@@ -15,6 +15,7 @@ if (instance_exists(Player)) {
 			// 
 			var itm = instance_create_depth(x,y,depth,Item);
 				itm.item = item;
+				itm.sprite_index = sprite_index;
 				
 			with(owner) {
 				for(var i = 0; i < ds_list_size(itemIds); i++) {
