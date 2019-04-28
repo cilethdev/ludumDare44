@@ -4,5 +4,6 @@ if (hp <= 0) {
 		instance_destroy();
 	}
 }
-
+facing = x > xprev ? 1 : -1;
+xprev = x;
 sm_execute(state);

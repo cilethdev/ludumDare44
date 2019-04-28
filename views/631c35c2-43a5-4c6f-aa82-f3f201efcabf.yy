@@ -5,7 +5,8 @@
     "name": "631c35c2-43a5-4c6f-aa82-f3f201efcabf",
     "children": [
         "2eb4ccae-e297-485a-8707-f6429be92906",
-        "0740b313-8902-4545-97be-d0339eb82ec1"
+        "0740b313-8902-4545-97be-d0339eb82ec1",
+        "a621f495-9d6a-4626-86ec-c1adf1c301ff"
     ],
     "filterType": "GMSprite",
     "folderName": "Spells",

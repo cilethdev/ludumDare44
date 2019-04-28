@@ -1,9 +1,9 @@
 /// @description 
 event_inherited();
 hp = enemyBaseHealth.medium;
-hpMax = enemyMaxHealth.medium;
+hpMax = enemyBaseHealth.medium;
 depth = -y;
-
+xprev = x;
 // attack
 attackRange = 6;
 attack = false;

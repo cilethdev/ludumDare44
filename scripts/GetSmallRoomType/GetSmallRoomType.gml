@@ -9,7 +9,6 @@ if (specialRoomCount >= 2) {
 } else {
 	if (chance < 30) {
 		specialRoomCount++;
-		return rmTypes.shop;
 		return choose(rmTypes.gamble,rmTypes.shop,rmTypes.chest);
 	}
 	else {

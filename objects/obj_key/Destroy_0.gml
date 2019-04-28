@@ -3,8 +3,8 @@ CamShake(0.6,0.5,0.4);
 
 var _enemyList = ds_list_create();
 for(var i = 0; i < 6; i++;) {
-	
-	ds_list_add(_enemyList,instance_create_layer(x+lengthdir_x(96,i*(360/6)),y+lengthdir_y(96,i*(360/6)),"Instances",Dummy));
+	var type = GetRandomEnemy();
+	ds_list_add(_enemyList,instance_create_layer(x+lengthdir_x(96,i*(360/6)),y+lengthdir_y(96,i*(360/6)),"Instances",type));
 }
 
 

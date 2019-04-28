@@ -463,6 +463,14 @@
             }
         },
         {
+            "Key": "2d37bfb8-fc42-480d-aaae-c835938bc31d",
+            "Value": {
+                "id": "3bb43a98-f713-43e3-8fa3-538b90edc38d",
+                "resourcePath": "objects\\PlayerDeath\\PlayerDeath.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2eb4ccae-e297-485a-8707-f6429be92906",
             "Value": {
                 "id": "9d18218a-9fa5-4cd3-9001-c16189dede00",
@@ -636,6 +644,14 @@
                 "id": "9ddf6e86-008c-4997-a360-b8ecf4dbd649",
                 "resourcePath": "views\/4360b596-1f5e-4f49-ae98-b49b0e46ce32.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "44263c63-31c9-4011-b14f-bd2d278b6073",
+            "Value": {
+                "id": "8fb5eeb4-3c58-441e-be17-276a4dec0693",
+                "resourcePath": "sprites\\spr_aoeStun\\spr_aoeStun.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -932,6 +948,14 @@
                 "id": "b1ac1b0b-7d2c-4b0a-aa9d-75bb59ee7795",
                 "resourcePath": "views\/5d3e0e76-2402-4b65-8ee8-8694a5108024.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5da6f334-0e28-4ddb-b328-90e1dc4d57ea",
+            "Value": {
+                "id": "8d50f4ff-afc1-4872-a366-a346dae3fda1",
+                "resourcePath": "sprites\\spr_bigSlimeJump\\spr_bigSlimeJump.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1591,6 +1615,14 @@
             }
         },
         {
+            "Key": "a19cb43c-ce91-42a5-89b2-0efb59ff1041",
+            "Value": {
+                "id": "137d2cdc-c6bc-4778-b27d-2e8c5ff27d7c",
+                "resourcePath": "scripts\\GetRandomEnemy\\GetRandomEnemy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a4513857-cd0e-44a3-9d77-62634335df4d",
             "Value": {
                 "id": "88e81b1f-e5a6-4a67-8339-437c90d27606",
@@ -1604,6 +1636,14 @@
                 "id": "3e8a89c8-e5d7-428b-be88-ffcd0e736d7a",
                 "resourcePath": "scripts\/menu_enums\/menu_enums.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a621f495-9d6a-4626-86ec-c1adf1c301ff",
+            "Value": {
+                "id": "5400faae-c224-47f5-a366-cc50099eccf4",
+                "resourcePath": "views\\a621f495-9d6a-4626-86ec-c1adf1c301ff.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1715,14 +1755,6 @@
             "Value": {
                 "id": "a91c3dc9-8960-4ff9-b575-d93756cf64f3",
                 "resourcePath": "sprites\/spr_goblin\/spr_goblin.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "ae3c22ae-7f01-4e03-a34b-c11058c25f45",
-            "Value": {
-                "id": "69535f42-6c1a-4796-9b4a-e5463a05335e",
-                "resourcePath": "sprites\\sprite59\\sprite59.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2028,6 +2060,14 @@
                 "id": "32339527-8575-4d66-aff1-19788081cfcc",
                 "resourcePath": "objects\/SceneController\/SceneController.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c9837756-bc9e-49de-ab6e-ae1d26612225",
+            "Value": {
+                "id": "3f2613e6-89dd-4522-ae9f-072ac9db5f09",
+                "resourcePath": "sprites\\spr_playerDeath\\spr_playerDeath.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2532,6 +2572,14 @@
                 "id": "7fb296ac-8f21-4373-93e3-1ab5252116b2",
                 "resourcePath": "scripts\/CamShake\/CamShake.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f17785e6-7ee7-4781-bc31-5f77280051e4",
+            "Value": {
+                "id": "660fe7ba-e2a3-4b02-acb8-f02080130812",
+                "resourcePath": "sprites\\spr_slimeJump\\spr_slimeJump.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

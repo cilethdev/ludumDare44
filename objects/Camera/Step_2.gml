@@ -13,7 +13,7 @@ if (instance_exists(Player)) {
 	camx = lerp(camx,camxT,0.05);
 	camy = lerp(camy,camyT,0.05);
 } else {
-	if (!PauseManager.paused) {
+	if (!PauseManager.paused && !instance_exists(PlayerDeath)) {
 		camx = 0;
 		camy = 0;
 	}

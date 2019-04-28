@@ -11,3 +11,16 @@ yscale = Approach(yscale,1,0.033);
 if (hitFlash) { hitFlash--; }
 
 depth = -y;
+
+if (hp <= 0 && !dead) {
+	dead = true;
+	destroyT = 60;
+	CamShake(1,0.5,0.6);
+}
+if (dead) {
+	destroyT--;
+	hitFlash = 1;
+	if (destroyT <= 0) {
+		instance_destroy();
+	}
+}

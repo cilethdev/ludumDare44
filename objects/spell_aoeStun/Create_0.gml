@@ -3,7 +3,7 @@ dmg = 3;
 
 instance_create_depth(x,y,depth-10,spell_aoeStun_effect);
 var splashList = ds_list_create();
-var n = collision_circle_list(x,y,80,par_enemy,false,true,splashList,false);
+var n = collision_circle_list(x,y,96,par_enemy,false,true,splashList,false);
 for(var i = 0; i < ds_list_size(splashList); i ++) {
 	with(splashList[|i]) {
 		hp -= other.dmg;
@@ -22,4 +22,4 @@ ds_list_destroy(splashList);
 
 CamShake(0.6,0.25,0.5);
 
-instance_destroy();
+alarm[0] = 1;

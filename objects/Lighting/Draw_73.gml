@@ -72,8 +72,8 @@ if (instance_exists(Slime)) {
 	}
 }
 
-if (instance_exists(bigSlime)) {
-	with(bigSlime) {
+if (instance_exists(BigSlime)) {
+	with(BigSlime) {
 		draw_circle_color(x-cx,y-16-cy,128,c_aqua,c_black,false);
 	}
 }
