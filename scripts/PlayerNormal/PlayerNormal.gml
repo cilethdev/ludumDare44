@@ -4,7 +4,7 @@ if (sm_onEnter(state)) {
 GetMoveDir();
 
 if (controller.kLeft || controller.kRight || controller.kUp || controller.kDown) {
-	spd = Approach(spd,moveSpd,acc);
+	spd = Approach(spd,stats.stats[itemProps.ms],acc);
 } else {
 	spd = Approach(spd,0,fric);
 }

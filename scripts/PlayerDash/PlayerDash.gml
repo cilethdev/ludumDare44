@@ -17,6 +17,6 @@ if (dashT) {
 }
 
 if (sm_onExit(state)) {
-	spd = moveSpd;
+	spd = stats.stats[itemProps.ms];
 	canHit = true;
 }

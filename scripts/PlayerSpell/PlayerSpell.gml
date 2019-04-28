@@ -1,12 +1,11 @@
 if (sm_onEnter(state)) {
 	//spellCastT = 90 - (90 * ct);
 	//spellCastTMax = 90 - (90 * ct);
-	spellCastT = abilities.spell[currentSpell,spellProps.ct] - (abilities.spell[currentSpell,spellProps.ct] * ct);
-	spellCastTMax = abilities.spell[currentSpell,spellProps.ct] - (abilities.spell[currentSpell,spellProps.ct] * ct);
+	spellCastT = abilities.spell[currentSpell,spellProps.ct] - (abilities.spell[currentSpell,spellProps.ct] * stats.stats[itemProps.ct]);
+	spellCastTMax = abilities.spell[currentSpell,spellProps.ct] - (abilities.spell[currentSpell,spellProps.ct] * stats.stats[itemProps.ct]);
 	moveWhileCast = abilities.spell[currentSpell,spellProps.canMove];
 	lightCol = make_colour_hsv(32,125,255);	
 	lightRadius = 128;
-
 }
 
 spd = Approach(spd,0,fric);
@@ -25,14 +24,17 @@ if (spellCastT > 0) {
 		
 	
 	abilities.ability[currentAbility,abilProp.canUse] = false;
-	abilities.ability[currentAbility,abilProp.cdT] = abilities.ability[currentAbility,abilProp.cd] - (abilities.ability[currentAbility,abilProp.cd] * cdr);
+	show_debug_message(string(max( floor(abilities.ability[currentAbility,abilProp.cd] - (stats.stats[itemProps.cdr]/20.0* abilities.ability[currentAbility,abilProp.cd])), 1)));
+	show_debug_message(string(abilities.ability[currentAbility,abilProp.cd] ));
+	show_debug_message(string(stats.stats[itemProps.cdr]));
+	abilities.ability[currentAbility,abilProp.cdT] = max( floor(abilities.ability[currentAbility,abilProp.cd] - (stats.stats[itemProps.cdr]/20.0* abilities.ability[currentAbility,abilProp.cd])), 1);
 	sm_change(state,PlayerNormal);
 }
 
 if (moveWhileCast) {
 	GetMoveDir();
 	if (controller.kLeft || controller.kRight || controller.kUp || controller.kDown) {
-		spd = Approach(spd,moveSpd,acc);
+		spd = Approach(spd,stats.stats[itemProps.ms],acc);
 	} else {
 		spd = Approach(spd,0,fric);
 	}

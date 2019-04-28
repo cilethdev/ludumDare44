@@ -27,7 +27,15 @@ enum itemProps {
 	ct, // cast time reduction 
 	atmBonus, // bonus money from the atm.
 	homing, // projectiles tendency to move towards nearest enemy
-	
+	bleed, // does damage over time to the enemy.
+	projectiles,
+	magnet, // attract coins.
+	healthSteal, // heal on damage.
+	explodeSize, // deal aoe damage on bullet hit
+	explodDmg, // damage of explosion.
+	accuracy, // randomness of shot.
+	wave, // bullet stream waves back and forth.
+		
 	
 	// excluded from stat calculation.
 	name,

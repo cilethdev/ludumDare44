@@ -50,10 +50,13 @@ rT = 0;
 rInc = 8;
 rAmp = 1;
 
+// Inventory
+inv = instance_create_depth(0,0,0,Inventory);
+
 // PlayerStats
 stats = instance_create_depth(0,0,0,PlayerStats);
 UpdatePlayerStats();
-hp = hpMax;
+hp = stats.stats[itemProps.hp]; // get rid of this.
 
 // Combat vars
 canHit = true;
@@ -64,8 +67,7 @@ abilities = instance_create_depth(0,0,0,AbilityController);
 currentSpell = -1;
 currentAbility = -1;
 
-// Inventory
-inv = instance_create_depth(0,0,0,Inventory);
+
 
 // HUD
 hud = instance_create_depth(0,0,0,HUD);

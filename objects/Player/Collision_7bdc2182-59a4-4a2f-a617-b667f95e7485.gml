@@ -1,8 +1,10 @@
 /// @description 
 if (controller.kInteract) {
 	editItemInventory(self,inv.inventory,other.item,1);
-	
-	
+	with(other) {
+		instance_destroy();
+	}
+	/*
 	// below here is old code that will be deleted.
 	var openIndex = -1;
 	for(var i = 0; i < array_height_2d(inv.inv); i++) {
@@ -18,4 +20,5 @@ if (controller.kInteract) {
 			instance_destroy();
 		}
 	}
+	*/
 }

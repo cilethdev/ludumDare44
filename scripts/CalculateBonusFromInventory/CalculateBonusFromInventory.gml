@@ -9,7 +9,7 @@ for(var i=0;i<statPropLength;i++){
 	bonus[i] = 0;	
 }
 
-for(var itemId = ds_map_find_first(inventory); !is_undefined(itemId); item = ds_map_find_next(inventory,itemId)){
+for(var itemId = ds_map_find_first(inventory); !is_undefined(itemId); itemId = ds_map_find_next(inventory,itemId)){
 		var numItem = inventory[?itemId]; // the numberof this item there are.
 		for(var i = 0;i < statPropLength; i++){
 				bonus[i] += global.items[itemId,i] * numItem;

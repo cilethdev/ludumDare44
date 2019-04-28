@@ -1,10 +1,17 @@
-if (instance_exists(Player)) {
+var localPlayer = Player;
+var localPlayerState = PlayerStats;
+var numProps = itemProps.length - 6;
+/*
+if (instance_exists(localPlayer)) {
 	// this should relate real stats on the left with base + bonus stats on the right.
-	Player.hpMax	= PlayerStats.stats[attr.hp];
-	Player.armor	= PlayerStats.stats[attr.armor];
-	Player.moveSpd	= PlayerStats.stats[attr.ms];
-	Player.ad		= PlayerStats.stats[attr.ad];
-	Player.ap		= PlayerStats.stats[attr.ap];
-	Player.cdr		= PlayerStats.stats[attr.cdr];
-	Player.ct		= PlayerStats.stats[attr.ct];
+	localPlayer.hpMax	= localPlayerState.stats[attr.hp];
+	localPlayer.armor	= localPlayerState.stats[attr.armor];
+	localPlayer.moveSpd	= localPlayerState.stats[attr.ms];
+	localPlayer.ad		= localPlayerState.stats[attr.ad];
+	localPlayer.ap		= localPlayerState.stats[attr.ap];
+	localPlayer.cdr		= localPlayerState.stats[attr.cdr];
+	localPlayer.ct		= localPlayerState.stats[attr.ct];
 }
+*/
+
+// should never need to be called.
