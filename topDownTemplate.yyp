@@ -935,6 +935,14 @@
             }
         },
         {
+            "Key": "5be91ec4-3a83-4d48-8e61-76e47aa55b21",
+            "Value": {
+                "id": "aaaa2109-dbb3-4c09-9316-fd6a1e944739",
+                "resourcePath": "sprites\\spr_chestMimic\\spr_chestMimic.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5c47e8ec-f545-4b63-a622-5cfcfa2bff8a",
             "Value": {
                 "id": "6c94c3d1-d128-4518-9e99-799e8674be71",
@@ -1316,6 +1324,14 @@
                 "id": "16f7e01c-3198-4168-a2c6-9c43bcf723ef",
                 "resourcePath": "objects\/PlayerStats\/PlayerStats.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8475c0b4-8325-4113-985b-c67a08b95902",
+            "Value": {
+                "id": "2a10899b-4fb4-4268-869c-3ec6f48e083c",
+                "resourcePath": "sprites\\spr_chest2\\spr_chest2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1979,6 +1995,14 @@
             "Value": {
                 "id": "b8f5f7a7-8a30-479b-a8b7-6ccb3f6173fa",
                 "resourcePath": "views\/c20d8fbc-659e-401d-af55-602c89a11b38.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c22e6d1a-c541-4e62-9373-fd8d818616d9",
+            "Value": {
+                "id": "425b6840-9b51-4ace-8ab5-ae23a12de806",
+                "resourcePath": "views\\c22e6d1a-c541-4e62-9373-fd8d818616d9.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -2798,7 +2822,8 @@
         "908a92c3-84fa-4002-9da3-d71e8a8a541d",
         "aef8e24b-5f16-46b8-a311-fe2694a7b940",
         "6949239a-6346-46b6-9418-dee3f7d72af7",
-        "32666174-5fe2-4079-95d5-1b2c94d061c8"
+        "32666174-5fe2-4079-95d5-1b2c94d061c8",
+        "a19cb43c-ce91-42a5-89b2-0efb59ff1041"
     ],
     "tutorial": ""
 }

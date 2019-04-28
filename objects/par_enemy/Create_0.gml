@@ -27,3 +27,4 @@ vy = 0;
 
 xscale = 1;
 yscale = 1;
+facing = 1;

@@ -69,15 +69,17 @@ if (controller.kAtk1 && abilities.ability[abils.atk1,abilProp.canUse]) {
 		fb.speed = 8;
 		fb.image_angle = aim;
 		fb.dmg = stats.stats[attr.ad];
-		
-	with(obj_staff) {
-		state = ONPLAYER;
-		trailT = 180;
-		swingResetT = 90;
-		if (swingOffsetTarget == 0) {
-			swingOffsetTarget = 65;
+	
+	if (instance_exists(obj_staff)) {
+		with(obj_staff) {
+			state = ONPLAYER;
+			trailT = 180;
+			swingResetT = 90;
+			if (swingOffsetTarget == 0) {
+				swingOffsetTarget = 65;
+			}
+			swingOffsetTarget *= -1;
 		}
-		swingOffsetTarget *= -1;
 	}
 }
 
