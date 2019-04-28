@@ -5,7 +5,7 @@ GetMoveDir();
 
 if (controller.kLeft || controller.kRight || controller.kUp || controller.kDown) {
 	sprite_index = spr_heroRun;
-	spd = Approach(spd,moveSpd,acc);
+	spd = Approach(spd,stats.stats[itemProps.ms],acc);
 } else {
 	sprite_index = spr_heroIdle;
 	spd = Approach(spd,0,fric);
@@ -60,7 +60,7 @@ if (controller.kDashP && onGround) {
 
 // Basic attack
 if (controller.kAtk1 && abilities.ability[abils.atk1,abilProp.canUse]) {
-	abilities.ability[abils.atk1,abilProp.cdT] = abilities.ability[abils.atk1,abilProp.cd];
+	abilities.ability[abils.atk1,abilProp.cdT] = abilities.ability[abils.atk1,abilProp.cd]; // TODO firerate
 	abilities.ability[abils.atk1,abilProp.canUse] = false;
 	
 	var aim = point_direction(x,y+z-16,mouse_x,mouse_y);

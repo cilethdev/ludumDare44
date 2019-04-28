@@ -15,5 +15,4 @@ var effect = instance_create_depth(_target.x,_target.y,0,Effect);
 	effect.amount = _amount;
 	ds_list_add(PlayerStats.modifiers[argument1],effect);
 
-
 return effect.id;

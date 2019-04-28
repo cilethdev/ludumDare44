@@ -1,12 +1,16 @@
-for(var i = 0; i < attr.length; i ++) {
-	var mods = PlayerStats.modifiers[i];
-	var modifierValue = 0;
-	for(var j = 0; j < ds_list_size(mods); j++) {
-		var m = mods[|j];
-		modifierValue += m.amount;
+var numProps = itemProps.length - 6;
+var localPlayer = Player;
+var localStats = PlayerStats;
+if(is_undefined(localPlayer)){
+	for(var i = 0; i < numProps; i ++) {
+		localStats.stats[i] = localStats.base[i];
 	}
-	
-	PlayerStats.stats[i] = PlayerStats.base[i,attrProp.val] + modifierValue;
+}
+else {
+	var bonus = CalculateBonusFromInventory(localPlayer.inv.inventory);
+	for(var i = 0; i < numProps; i ++) {
+		localStats.stats[i] = localStats.base[i] + bonus[i];
+	}
 }
 
 UpdatePlayerStats();

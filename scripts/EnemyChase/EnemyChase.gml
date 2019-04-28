@@ -9,9 +9,10 @@ if (!instance_exists(Player)) {
 	if (distance_to_object(Player) < attackRange && !collision_line(x,y,Player.x,Player.y-16,Solid,false,true)) {
 		if (!attack) {
 			attack = true;
+			attackCDT = attackCD;
+			sm_change(state, attackType)
 		}
 		path_end()
-	
 	}
 
 	pathCheckT = (pathCheckT + 1) mod 60;
@@ -28,11 +29,10 @@ if (!instance_exists(Player)) {
 	}
 	
 	if (attack) {
-		if (attackCD) {
-			attackCD--;
+		if (attackCDT) {
+			attackCDT--;
 		} else {
-			attackCD = 90 // TODO: make this dependent on enemy type
-			sm_change(state, attackType)
+			attackCDT = attackCD;
 			attack = false;
 		}
 	}
@@ -40,6 +40,5 @@ if (!instance_exists(Player)) {
 
 if (sm_onExit(state)) {
 	path_end();
-	attackCD = 90;
 	image_blend = c_white;
 }
