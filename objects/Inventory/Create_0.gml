@@ -14,15 +14,17 @@ for(var i = 0; i < invSize; i ++) {
 inventory = ds_map_create();
 
 showInv = false;
-maxInvWidth = 500;
+
+
+downScale = 2;
+healthBarSize = 200;
+maxInvWidth = (display_get_gui_width() - healthBarSize)* downScale;
 
 topSpace = 200;
 
-invx = display_get_gui_width()  - maxInvWidth;
-invy = display_get_gui_height() - 72 - topSpace;
+
+invx = healthBarSize;
+invy = 20 - topSpace/downScale; //display_get_gui_height() - 72 - topSpace;
 
 
-
-
-// TODO decide on the width of the inventory surface.
 inventorySurface = surface_create(maxInvWidth, 500);

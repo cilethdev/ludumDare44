@@ -52,7 +52,7 @@ draw_clear_alpha(c_white,0);
 	
 // reset the surface back to the original surface.
 surface_reset_target();
-draw_surface_ext(inventorySurface,invx,invy,1,1,1,c_white,0.5);
+ draw_surface_ext(inventorySurface,invx,invy,1/downScale,1/downScale,0,c_white,0.5);
 
 for(var i = 0; i < invSize; i++) {
 	if (inv[i,invProps.item] != -1) {

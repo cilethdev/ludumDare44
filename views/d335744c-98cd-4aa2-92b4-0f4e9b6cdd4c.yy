@@ -6,8 +6,8 @@
     "children": [
         "96b763bd-94b8-4060-9b94-3d9723c92fe5",
         "b0686c19-48aa-474d-a2d4-3b23bcf945f1",
-        "b40101f8-84c6-4f33-b287-4d0d2e809f10",
-        "199b703b-0958-4525-8283-ca52bd45083e"
+        "199b703b-0958-4525-8283-ca52bd45083e",
+        "b40101f8-84c6-4f33-b287-4d0d2e809f10"
     ],
     "filterType": "GMSprite",
     "folderName": "Collectibles",
