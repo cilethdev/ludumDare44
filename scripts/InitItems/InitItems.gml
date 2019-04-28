@@ -28,7 +28,7 @@ global.items[items.heelies, itemProps.rarity] = 13;
 
 createBaseCollectible(items.twoDollarBill, "Thomas Jefferson", "Two dollars used to be quite a lot of money.", spr_twoDollarBill);
 global.items[items.twoDollarBill, itemProps.projectiles] = 1;
-global.items[items.twoDollarBill, itemProps.rarity] = 2;
+global.items[items.twoDollarBill, itemProps.rarity] = 4;
 global.items[items.twoDollarBill, itemProps.value] = 502;
 
 

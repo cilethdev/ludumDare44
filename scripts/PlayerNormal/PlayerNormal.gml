@@ -71,7 +71,7 @@ if (controller.kAtk1 && abilities.ability[abils.atk1,abilProp.canUse]) {
 		var fb = instance_create_depth(x,y-16+z,depth-1,spell_basicAttack);
 		fb.direction = aim - (totalSpread/2) + i*spread;
 		fb.speed = 8;
-		fb.image_angle = aim;
+		fb.image_angle = fb.direction;
 		fb.dmg = stats.stats[attr.ad];
 	}
 	
