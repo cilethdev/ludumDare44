@@ -15,10 +15,10 @@ if (instance_exists(Player)) {
 	draw_sprite(spr_healthBar,0,hbx,hby);
 
 	draw_set_colour(c_black);
-	draw_text_transformed(hbx+64+1,hby,string(player.hp) + " / " + string(playerStats.stats[attr.hp]),0.5,0.5,0);
-	draw_text_transformed(hbx+64-1,hby,string(player.hp) + " / " + string(playerStats.stats[attr.hp]),0.5,0.5,0);
-	draw_text_transformed(hbx+64,hby+1,string(player.hp) + " / " + string(playerStats.stats[attr.hp]),0.5,0.5,0);
-	draw_text_transformed(hbx+64,hby-1,string(player.hp) + " / " + string(playerStats.stats[attr.hp]),0.5,0.5,0);
+	draw_text_transformed(hbx+64+1,hby,string(player.hp) + " / " + string(player.maxHp),0.5,0.5,0);
+	draw_text_transformed(hbx+64-1,hby,string(player.hp) + " / " + string(player.maxHp),0.5,0.5,0);
+	draw_text_transformed(hbx+64,hby+1,string(player.hp) + " / " + string(player.maxHp),0.5,0.5,0);
+	draw_text_transformed(hbx+64,hby-1,string(player.hp) + " / " + string(player.maxHp),0.5,0.5,0);
 
 	draw_set_colour(c_white);
 	draw_text_transformed(hbx+64,hby,string(player.hp) + " / " + string(playerStats.stats[attr.hp]),0.5,0.5,0);

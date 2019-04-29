@@ -69,6 +69,7 @@ inv = instance_create_depth(0,0,0,Inventory);
 stats = instance_create_depth(0,0,0,PlayerStats);
 UpdatePlayerStats();
 hp = stats.stats[itemProps.hp]; // get rid of this.
+maxHp = hp;
 
 // Combat vars
 canHit = true;

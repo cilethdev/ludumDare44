@@ -1,6 +1,10 @@
 /// @description 
 sm_execute(state);
 
+if( hp > maxHp){
+	maxHp = hp;	
+}
+
 rT = (rT + rInc) mod 360;
 var radiusOffset = rAmp*sin(degtorad(rT));
 lightRadius_a = lightRadius + radiusOffset;
