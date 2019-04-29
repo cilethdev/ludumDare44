@@ -21,9 +21,9 @@ sceneIntro[1,2] = 120;
 sceneIntro[1,3] = 60;
 sceneIntro[1,4] = 60;
 
-sceneIntro[2,0] = "PEOPLE";
+sceneIntro[2,0] = "SAM BRAGG\nTRISTAN DENIET\nPATRICK HILL\nARON HOMMAS\nKEVIN ULRICH";
 sceneIntro[2,1] = 60;
-sceneIntro[2,2] = 120;
+sceneIntro[2,2] = 180;
 sceneIntro[2,3] = 60;
 sceneIntro[2,4] = 60;
 

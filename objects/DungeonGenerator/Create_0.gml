@@ -12,7 +12,8 @@ enum rmTypes {
 	chest,
 	shop,
 	gamble,
-	heal
+	heal,
+	barrel
 }
 #macro GRID 32
 
@@ -335,6 +336,9 @@ for(var i = 0; i < ds_list_size(roomList); i++) {
 			show_debug_message("KEY CREATED");
 			var key = instance_create_layer(cRm[? "cx"]*GRID,cRm[? "cy"]*GRID,"Instances",obj_key);
 				key.rm = cRm;
+			break;
+		case rmTypes.heal:
+			instance_create_layer(cRm[? "cx"]*GRID,cRm[? "cy"]*GRID,"Instances",obj_atm);
 			break;
 		case rmTypes.shop:
 			instance_create_layer(cRm[? "cx"]*GRID-GRID,cRm[? "cy"]*GRID,"Instances",obj_shop);
