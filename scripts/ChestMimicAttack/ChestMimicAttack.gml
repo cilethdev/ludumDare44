@@ -9,7 +9,7 @@ if (sm_onEnter(state)) {
 } else if (onGround) {
 	var numProjectiles = 8;
 	for(var i = 0; i < numProjectiles; i ++) {
-	var b = instance_create_depth(x,y,-10000,obj_orb);
+	var b = instance_create_depth(x,y,depth-201,obj_orb);
 		b.speed = 4;
 		b.direction = i*(360/numProjectiles);
 		var s = 1.2;
