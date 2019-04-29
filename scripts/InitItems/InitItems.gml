@@ -1,11 +1,11 @@
-createBaseCollectible(items.book, "Spellbook", "", spr_book);
-global.items[items.book,itemProps.ap]		= 10;
+createBaseCollectible(items.book, "Spellbook", "A booke that has the potential to become smarter.", spr_book);
+global.items[items.book,itemProps.ap]		= 5;
 global.items[items.book,itemProps.cdr]		= 0.1;
 global.items[items.book,itemProps.ct]		= 0.05;
 
-createBaseCollectible(items.sword,"Sword", "a sword", spr_sword);
+createBaseCollectible(items.sword,"Sword", "A sword of questionable quality.", spr_sword);
 global.items[items.sword,itemProps.ms]		= 0.1;
-global.items[items.sword,itemProps.ad]		= 3;
+global.items[items.sword,itemProps.ad]		= 1;
 
 
 createBaseCollectible(items.crookedScale,"Crooked Scale", "The scale used by a successful and wily merchant.", spr_crookedScale);
@@ -25,15 +25,20 @@ createBaseCollectible(items.heelies, "Heelies", "Sneakers that give great speed 
 global.items[items.heelies, itemProps.ms] = 0.5;
 global.items[items.heelies, itemProps.rarity] = 13;
 
-
 createBaseCollectible(items.twoDollarBill, "Thomas Jefferson", "Two dollars used to be quite a lot of money.", spr_twoDollarBill);
 global.items[items.twoDollarBill, itemProps.projectiles] = 1;
 global.items[items.twoDollarBill, itemProps.rarity] = 4;
-global.items[items.twoDollarBill, itemProps.value] = 502;
+global.items[items.twoDollarBill, itemProps.value] = 102;
 
+createBaseCollectible(items.magnet, "Big Magnet", "This is a rather large and heavy magnet", spr_magnet);
+global.items[items.magnet, itemProps.magnet] = 1;
+global.items[items.magnet, itemProps.rarity] = 13;
+global.items[items.magnet, itemProps.value] = 25;
+global.items[items.magnet, itemProps.ms] = -0.15;
 
-
-
+createBaseCollectible(items.targettedInvestment, "Targetted Investment", "An expensive textbook describing ways to turn money into money", spr_targettedInvestment);
+global.items[items.targettedInvestment, itemProps.rarity] = 7;
+global.items[items.targettedInvestment, itemProps.homing] = .2;
 
 // calculates the total rarity sum. this needs to stay after all item initiation.
 global.itemRaritySum = 0;

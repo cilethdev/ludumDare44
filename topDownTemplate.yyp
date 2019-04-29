@@ -671,6 +671,14 @@
             }
         },
         {
+            "Key": "392ca1d8-0326-4a7f-9b98-3dd006cb607d",
+            "Value": {
+                "id": "6b40487d-3ccd-49b8-97db-da74195f3060",
+                "resourcePath": "sprites\\spr_magnet\\spr_magnet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3a446eab-f98c-44c0-aaf0-cf0ea7b60cf1",
             "Value": {
                 "id": "1e773fb0-5211-4ebe-88a5-1896088fc9ee",
@@ -1084,6 +1092,14 @@
                 "id": "6509e4a5-9702-4bef-9e33-8fcea33a0dea",
                 "resourcePath": "views\\5746444d-7882-497f-8d1e-14b952f85345.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "587237a1-c5ca-4a31-aec7-76580a344a97",
+            "Value": {
+                "id": "e71ba8d0-f2dc-4974-82f8-966c4fe047b5",
+                "resourcePath": "sprites\\spr_targettedInvestment\\spr_targettedInvestment.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2020,6 +2036,14 @@
                 "id": "948b1bbf-0885-4c3a-861e-d96212ffc50c",
                 "resourcePath": "views\/ab0ac9d0-e5c0-4c1d-be90-b5c0e01f0f42.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ab15bc93-57ce-4ef8-a8b9-4bc53e0a424a",
+            "Value": {
+                "id": "a0f722c0-36e8-4802-bf30-626eb949e580",
+                "resourcePath": "objects\\statNotifier\\statNotifier.yy",
+                "resourceType": "GMObject"
             }
         },
         {

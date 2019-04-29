@@ -13,8 +13,9 @@ enum items {
 	
 	// other
 	heelies,
-	
 	twoDollarBill,
+	magnet,
+	targettedInvestment,
 	
 	length
 }
@@ -38,7 +39,6 @@ enum itemProps {
 	accuracy, // randomness of shot.
 	wave, // bullet stream waves back and forth.
 	value, // the base value of the item
-		
 	
 	// excluded from stat calculation.
 	name,

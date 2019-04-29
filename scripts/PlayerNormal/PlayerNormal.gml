@@ -72,10 +72,11 @@ if (controller.kAtk1 && abilities.ability[abils.atk1,abilProp.canUse]) {
 		fb.direction = aim - (totalSpread/2) + i*spread;
 		fb.speed = 8;
 		fb.image_angle = fb.direction;
-		fb.dmg = stats.stats[attr.ad];
+		fb.homing = stats.stats[itemProps.homing];
+		fb.dmg = stats.stats[itemProps.ad];
 	}
 	
-		
+	
 	with(obj_staff) {
 		state = ONPLAYER;
 		trailT = 180;
