@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "19b4ee5f-c37b-4d62-b550-f11fcf2ece4a",
+            "Value": {
+                "id": "ee3ac1f5-2f79-4edf-afe5-05b6525e6d15",
+                "resourcePath": "objects\\obj_atm\\obj_atm.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1ab09131-438e-4272-ad58-7537febcb4ef",
             "Value": {
                 "id": "f261eb08-63ab-4529-8d1b-c691157f7047",
@@ -431,6 +439,14 @@
             }
         },
         {
+            "Key": "1f6c0ac1-f678-4445-807e-c98b0849180f",
+            "Value": {
+                "id": "5054fc15-0b8e-47b8-8d19-2ede81d0571a",
+                "resourcePath": "sprites\\spr_barrel\\spr_barrel.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2091703b-ea3c-4e4b-b49f-f17fc98a4ac3",
             "Value": {
                 "id": "d96067e1-0df9-4de2-bfe4-9358626edf00",
@@ -476,6 +492,14 @@
                 "id": "ee4a705d-5860-4fe2-82d2-53c563435f46",
                 "resourcePath": "objects\/DashEnemy\/DashEnemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2299b669-74be-4957-a74f-a30d8f8438ef",
+            "Value": {
+                "id": "f499840c-f966-45a1-b771-6cbd60f4f57c",
+                "resourcePath": "sprites\\spr_atm\\spr_atm.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -623,6 +647,14 @@
             }
         },
         {
+            "Key": "2dfef906-fbfa-4825-9b27-3899094b5390",
+            "Value": {
+                "id": "416bb3dd-2e59-4cb4-9848-0f3b38996dcb",
+                "resourcePath": "objects\\obj_barrel\\obj_barrel.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2eb4ccae-e297-485a-8707-f6429be92906",
             "Value": {
                 "id": "9d18218a-9fa5-4cd3-9001-c16189dede00",
@@ -636,6 +668,14 @@
                 "id": "8f9cf1da-9378-4e43-97ed-92dc591286e9",
                 "resourcePath": "sounds\\music_dntLoop\\music_dntLoop.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "303d88bb-5064-4b5a-b963-6961fe1f3a70",
+            "Value": {
+                "id": "7776c767-6c1e-48ac-a2e6-92fc8683408d",
+                "resourcePath": "sprites\\btn9\\btn9.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
