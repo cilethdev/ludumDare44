@@ -60,8 +60,8 @@ if (instance_exists(spell_coinShieldCoin)) {
 }
 
 // ENEMIES
-if (instance_exists(Troll)) {
-	with(Troll) {
+if (instance_exists(Dummy)) {
+	with(Dummy) {
 		draw_circle_color(x-cx,y-16-cy,96,c_gray,c_black,false);
 	}
 }

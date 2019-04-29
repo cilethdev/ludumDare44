@@ -3,9 +3,9 @@ for(var i = 0;i < numProps; i++){
 	base[i] = 0;
 }
 
-base[itemProps.hp] = 1000000000; // TODO: change back
+base[itemProps.hp] = 50;
 base[itemProps.ms] = 3;
-base[itemProps.ad] = 30; // TODO: change back
+base[itemProps.ad] = 3;
 base[itemProps.explodDmg] = 3;
 
 

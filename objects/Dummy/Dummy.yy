@@ -2,7 +2,7 @@
     "id": "8ef408c1-867b-4cc7-8f04-9e0624ca2090",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Troll",
+    "name": "Dummy",
     "eventList": [
         {
             "id": "db91ce9d-ec5e-4ed4-bc10-9efc5a9c94c1",
