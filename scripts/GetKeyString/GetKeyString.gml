@@ -1,8 +1,8 @@
 if (argument0 = mb_left) {
-	return "MB LEFT";
+	return "M1";
 }
 if (argument0 = mb_right) {
-	return "MB RIGHT";
+	return "M2";
 }
 if (argument0 = vk_space) {
 	return "SPACE";

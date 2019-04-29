@@ -15,8 +15,15 @@ if (collision_rectangle(x-48,y-32,x+48,y+48,Player,false,true)){
 			open = true;
 			drawOpen = false;
 			image_index = 1;
-			repeat(irandom_range(15,20)) {
+			repeat(irandom_range(6,12)) {
 				instance_create_depth(x+random_range(-24,24),y-random_range(4,8),depth-32,coin);
+			}
+			
+			// Loot
+			repeat(maxLoot){
+				if(random(1) <= lootDropRate){
+					instance_create_depth(x,y,depth,randomCollectible);
+				}
 			}
 			
 			// SFX

@@ -2,6 +2,7 @@
 owner = -1;
 item = items.book;
 sprite_index = global.items[item,itemProps.sprite];
+image_speed = 0;
 price = 10;
 lightCol = make_colour_hsv(45,125,255);
 

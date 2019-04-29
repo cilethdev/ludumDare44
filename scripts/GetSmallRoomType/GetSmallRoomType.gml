@@ -9,7 +9,8 @@ if (specialRoomCount >= 2) {
 } else {
 	if (chance < 30) {
 		specialRoomCount++;
-		return choose(rmTypes.gamble,rmTypes.shop,rmTypes.chest);
+		return rmTypes.shop;
+		return choose(rmTypes.shop,rmTypes.chest);
 	}
 	else {
 		return rmTypes.enemy;

@@ -1,7 +1,7 @@
 spell[spells.fireBall, spellProps.name]		= "";
 spell[spells.fireBall, spellProps.desc]		= "";
 spell[spells.fireBall, spellProps.sprite]	= spr_spellPlaceholder;
-spell[spells.fireBall, spellProps.key]		= abilKeys.q;
+spell[spells.fireBall, spellProps.key]		= abilKeys.mbr;
 spell[spells.fireBall, spellProps.dmgType]	= dmgTypes.magic;
 spell[spells.fireBall, spellProps.baseDmg]	= 10;
 spell[spells.fireBall, spellProps.apRatio]	= 0.6;
@@ -9,7 +9,7 @@ spell[spells.fireBall, spellProps.adRatio]	= 0;
 spell[spells.fireBall, spellProps.castType] = castTypes.cast;
 spell[spells.fireBall, spellProps.cd]		= room_speed * 8;
 spell[spells.fireBall, spellProps.ct]		= 60;
-spell[spells.fireBall, spellProps.cost]		= 0;
+spell[spells.fireBall, spellProps.cost]		= 5;
 spell[spells.fireBall, spellProps.scr]		= scr_fireball;
 spell[spells.fireBall, spellProps.canMove]  = false;
 
@@ -24,7 +24,7 @@ spell[spells.aoeStun, spellProps.adRatio]	= 0;
 spell[spells.aoeStun, spellProps.castType]	= castTypes.cast;
 spell[spells.aoeStun, spellProps.cd]		= room_speed * 8;
 spell[spells.aoeStun, spellProps.ct]		= 0;
-spell[spells.aoeStun, spellProps.cost]		= 0;
+spell[spells.aoeStun, spellProps.cost]		= 3;
 spell[spells.aoeStun, spellProps.scr]		= scr_aoeStun;
 spell[spells.aoeStun, spellProps.canMove]	= true;
 
@@ -39,7 +39,7 @@ spell[spells.coinShield, spellProps.adRatio]	= 0;
 spell[spells.coinShield, spellProps.castType]	= castTypes.cast;
 spell[spells.coinShield, spellProps.cd]			= room_speed * 12;
 spell[spells.coinShield, spellProps.ct]			= 0;
-spell[spells.coinShield, spellProps.cost]		= 0;
+spell[spells.coinShield, spellProps.cost]		= 3;
 spell[spells.coinShield, spellProps.scr]		= scr_coinShield;
 spell[spells.coinShield, spellProps.canMove]	= true;
 
@@ -54,6 +54,6 @@ spell[spells.makeItRain, spellProps.adRatio]	= 0;
 spell[spells.makeItRain, spellProps.castType]	= castTypes.cast;
 spell[spells.makeItRain, spellProps.cd]			= room_speed * 15;
 spell[spells.makeItRain, spellProps.ct]			= 60;
-spell[spells.makeItRain, spellProps.cost]		= 0;
+spell[spells.makeItRain, spellProps.cost]		= 3;
 spell[spells.makeItRain, spellProps.scr]		= scr_makeItRain;
 spell[spells.makeItRain, spellProps.canMove]	= false;

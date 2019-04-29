@@ -29,6 +29,12 @@ if (!onGround) {
 //	yscale = 1.5;
 //}
 
+if (controller.kAtk2 && abilities.ability[abils.atk2,abilProp.canUse] && onGround) {
+	currentSpell = abilities.ability[abils.atk2,abilProp.spell];
+	currentAbility = abils.atk2;
+	sm_change(state,PlayerSpell);
+}
+
 if (controller.kSpell1 && abilities.ability[abils.spell1,abilProp.canUse] && onGround) {
 	currentSpell = abilities.ability[abils.spell1,abilProp.spell];
 	currentAbility = abils.spell1;
@@ -47,11 +53,11 @@ if (controller.kSpell3 && abilities.ability[abils.spell3,abilProp.canUse] &&  on
 	sm_change(state,PlayerSpell);
 }
 
-if (controller.kHeal && abilities.ability[abils.heal,abilProp.canUse] &&  onGround) {
-	currentSpell = abilities.ability[abils.heal,abilProp.spell];
-	currentAbility = abils.heal;
-	sm_change(state,PlayerSpell);
-}
+//if (controller.kHeal && abilities.ability[abils.heal,abilProp.canUse] &&  onGround) {
+//	currentSpell = abilities.ability[abils.heal,abilProp.spell];
+//	currentAbility = abils.heal;
+//	sm_change(state,PlayerSpell);
+//}
 
 
 if (controller.kDashP && onGround && canDash) {
