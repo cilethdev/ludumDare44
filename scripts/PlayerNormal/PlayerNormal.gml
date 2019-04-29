@@ -62,6 +62,7 @@ if (controller.kSpell3 && abilities.ability[abils.spell3,abilProp.canUse] &&  on
 
 if (controller.kDashP && onGround && canDash) {
 	sm_change(state,PlayerDash);
+	stats.dashesUsed ++;
 }
 
 // Basic attack
@@ -73,6 +74,7 @@ if (controller.kAtk1 && abilities.ability[abils.atk1,abilProp.canUse]) {
 	var numProjectiles = max( floor(stats.stats[itemProps.projectiles] + 1) , 1);
 	var spread = 10;
 	var totalSpread = (numProjectiles-1) * spread;
+	stats.projectilesShot += numProjectiles;
 	for(var i = 0; i < numProjectiles; i++){
 		var fb = instance_create_depth(x,y-16+z,depth-1,spell_basicAttack);
 		fb.direction = aim - (totalSpread/2) + i*spread;

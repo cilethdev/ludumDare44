@@ -9,6 +9,7 @@ if (controller.kInteract) {
 		instance_destroy();
 	}
 	
+	stats.itemsCollected++;
 	maxHp = stats.stats[itemProps.hp];
 	
 	// SFX

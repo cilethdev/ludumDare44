@@ -9,6 +9,7 @@ if(player.hp < player.maxHp){
 		hText.owner = other.owner;
 
 	player.hp += value;
+	player.stats.coinsCollected++;
 
 	// SFX
 	PlaySound(snd_itemBuy,0.25,random_range(1,1.2),0);
