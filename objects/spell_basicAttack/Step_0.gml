@@ -20,6 +20,7 @@ if(homing != 0){
 			hspeed += (dx/distance) * homing;
 			vspeed += (dy/distance) * homing;
 			speed = oldSpeed;
+			image_angle = direction;
 		}
 	}
 }

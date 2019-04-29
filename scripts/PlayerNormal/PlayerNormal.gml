@@ -76,7 +76,7 @@ if (controller.kAtk1 && abilities.ability[abils.atk1,abilProp.canUse]) {
 		fb.dmg = stats.stats[itemProps.ad];
 	}
 	
-		
+	
 	with(obj_staff) {
 		state = ONPLAYER;
 		trailT = 180;
