@@ -37,6 +37,9 @@ global.items[items.magnet, itemProps.rarity] = 13;
 global.items[items.magnet, itemProps.value] = 25;
 global.items[items.magnet, itemProps.ms] = -0.15;
 
+createBaseCollectible(items.targettedInvestment, "Targetted Investment", "An expensive textbook describing ways to make money using nothing but money", spr_targettedInvestment);
+global.items[items.targettedInvestment, itemProps.rarity] = 7;
+global.items[items.targettedInvestment, itemProps.homing] = .2;
 
 // calculates the total rarity sum. this needs to stay after all item initiation.
 global.itemRaritySum = 0;

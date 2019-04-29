@@ -895,6 +895,14 @@
             }
         },
         {
+            "Key": "587237a1-c5ca-4a31-aec7-76580a344a97",
+            "Value": {
+                "id": "fc3f6849-1df7-422f-88ba-888ae7e8d5f1",
+                "resourcePath": "sprites\\spr_targettedInvestment\\spr_targettedInvestment.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "58e9586a-b0ff-4e67-9579-7fb1c72abb6e",
             "Value": {
                 "id": "9304a023-48f2-40a3-83bc-fa9697f8f74a",

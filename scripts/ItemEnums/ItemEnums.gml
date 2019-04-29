@@ -15,6 +15,7 @@ enum items {
 	heelies,
 	twoDollarBill,
 	magnet,
+	targettedInvestment,
 	
 	length
 }
