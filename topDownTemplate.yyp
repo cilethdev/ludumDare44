@@ -1735,6 +1735,14 @@
             }
         },
         {
+            "Key": "ab15bc93-57ce-4ef8-a8b9-4bc53e0a424a",
+            "Value": {
+                "id": "7e00f2f2-2d5e-41ee-94db-82051e59d098",
+                "resourcePath": "objects\\statNotifier\\statNotifier.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ad3eb734-608e-41ed-a979-40bab426d4c2",
             "Value": {
                 "id": "fdb6d6bc-24af-4129-bbe5-cc4f83bcbdcb",
