@@ -58,9 +58,9 @@ ability[abils.spell3,abilProp.ct]		= spell[spells.coinShield,spellProps.ct];
 ability[abils.spell3,abilProp.canUse]	= true;
 ability[abils.spell3,abilProp.cdT]		= -1;
 
-ability[abils.heal,abilProp.spell]		= spells.fireBall;
+ability[abils.heal,abilProp.spell]		= spells.makeItRain;
 ability[abils.heal,abilProp.input]		= spr_heal;
-ability[abils.heal,abilProp.cd]			= spell[spells.fireBall,spellProps.cd];
-ability[abils.heal,abilProp.ct]			= spell[spells.fireBall,spellProps.ct];
+ability[abils.heal,abilProp.cd]			= spell[spells.makeItRain,spellProps.cd];
+ability[abils.heal,abilProp.ct]			= spell[spells.makeItRain,spellProps.ct];
 ability[abils.heal,abilProp.canUse]		= true;
 ability[abils.heal,abilProp.cdT]		= -1;

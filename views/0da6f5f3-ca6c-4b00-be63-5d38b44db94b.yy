@@ -4,7 +4,8 @@
     "mvc": "1.1",
     "name": "0da6f5f3-ca6c-4b00-be63-5d38b44db94b",
     "children": [
-        "67d51a5a-6209-4cb6-a699-27c5ba91d855"
+        "67d51a5a-6209-4cb6-a699-27c5ba91d855",
+        "4a7aafdf-e79c-4420-925a-8c399bbc1040"
     ],
     "filterType": "GMSprite",
     "folderName": "Collision",
