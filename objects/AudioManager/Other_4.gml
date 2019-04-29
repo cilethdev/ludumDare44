@@ -10,6 +10,13 @@ switch(room) {
 			PlayMusic(global.currentTrack,1);
 		}
 		break;
+	case rm_thanks:
+		if (global.currentTrack != music_dntLoop) {
+			audio_stop_all();
+			global.currentTrack = music_dntLoop;
+			PlayMusic(global.currentTrack,1);
+		}
+		break;
 	case m_main:
 	case m_settings:
 	case m_controls:

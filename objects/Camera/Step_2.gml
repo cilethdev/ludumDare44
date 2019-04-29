@@ -19,6 +19,11 @@ if (instance_exists(Player)) {
 	}
 }
 
+if (instance_exists(PlayerDeath)) {
+	camx = PlayerDeath.x-camw/2;
+	camy = PlayerDeath.y-16-camh/2;
+}
+
 if (!global.release) {
 	if(keyboard_check_pressed(ord("1"))) {
 		instance_create_layer(mouse_x,mouse_y,"Instances",Dummy);

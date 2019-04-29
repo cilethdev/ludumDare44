@@ -1,5 +1,5 @@
 /// @description 
-global.release = false;
+global.release = true;
 
 // initialize singletons
 instance_create_depth(0,0,0,InputManager);
