@@ -1,7 +1,7 @@
 /// @description 
-image_index = irandom(4);
+image_index = 1;
 image_speed = 0;
-value = 1 + image_index;
+value = 5;
 
 depth = -y;
 z = 0;

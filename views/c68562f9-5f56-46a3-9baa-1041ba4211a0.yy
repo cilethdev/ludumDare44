@@ -7,7 +7,8 @@
         "479e48ea-8f2d-4e8b-b924-83c7a0511d0d",
         "959afe97-2504-4bf9-9d53-128d3fbf0d41",
         "51fbad94-0ffb-4290-b9b9-d09be1b7de18",
-        "eea861ac-14b6-45b1-b611-5e590cc3adc0"
+        "eea861ac-14b6-45b1-b611-5e590cc3adc0",
+        "e52e386b-2621-482f-9bdb-58c8033363a8"
     ],
     "filterType": "GMObject",
     "folderName": "Spells",

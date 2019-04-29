@@ -7,6 +7,14 @@ if (sm_onEnter(state)) {
 	lightCol = make_colour_hsv(32,125,255);	
 	lightRadius = 128;
 	sprite_index = spr_heroIdle;
+	
+	
+	if (instance_exists(obj_staff)) {
+		with(obj_staff) {
+			state = ONPLAYER;
+			trailT = 180;
+		}
+	}
 
 }
 

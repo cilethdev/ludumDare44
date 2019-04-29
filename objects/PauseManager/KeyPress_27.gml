@@ -13,6 +13,9 @@ if (paused) {
 		if (persistent == false) {
 			instance_deactivate_object(id);
 		}
+		if (object_index == Player) {
+			instance_deactivate_object(id);
+		}
 	}
 	var posx,posy;
 	posx = Camera.camx + Camera.camw/2;

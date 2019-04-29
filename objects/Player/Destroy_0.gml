@@ -1,4 +1,19 @@
 /// @description 
 signal_disconnect_all(id);
 
-instance_create_depth(x,y,depth,PlayerDeath);
+if (room == level_1 && room == level_2 && room == level_3 && room == rm_test) {
+	instance_create_depth(x,y,depth,PlayerDeath);
+}
+
+with(inv) {
+	instance_destroy();
+}
+with(hud) {
+	instance_destroy();
+}
+with(stats) {
+	instance_destroy();
+}
+with(abilities) {
+	instance_destroy();
+}

@@ -1,2 +1,2 @@
 /// @description 
-Lighting.visible = true;
+//Lighting.visible = true;
