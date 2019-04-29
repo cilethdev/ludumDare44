@@ -6,7 +6,7 @@ hitStun = 0;
 hitFlash = 0;
 state = sm_init(EnemyIdle);
 checkDisT = irandom(15);
-aggroRange = 1024;
+aggroRange = 240;
 attackRange = 0;
 attackCD = 90;
 attack = false;
@@ -14,6 +14,8 @@ attackDur = 0;
 attackCD = 0;
 
 frozenAction = EnemyFrozen;
+
+spawnDelay = 30;
 
 dmg = 1;
 dmgType = "light";

@@ -1,0 +1,1 @@
+text = GetKeyString(InputManager.atk2) + " - EXPLOSIVE COIN";

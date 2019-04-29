@@ -208,25 +208,25 @@ for(var i = 0; i < levelw; i++) {
 		if (level[# i,j] == 1) {
 			if (level[# i+1,j] == 0) {
 				if (!position_meeting((i+1)*GRID,j*GRID,Solid)) {
-					var sl = instance_create_depth((i+1)*GRID,j*GRID,0,Solid);
+					var sl = instance_create_depth((i+1)*GRID,j*GRID,depth,Solid);
 						sl.floorDir = fDir.left;
 				}
 			} 
 			if (level[# i-1,j] == 0) {
 				if (!position_meeting((i-1)*GRID,j*GRID,Solid)) {
-					var sl = instance_create_depth((i-1)*GRID,j*GRID,0,Solid);
+					var sl = instance_create_depth((i-1)*GRID,j*GRID,depth,Solid);
 						sl.floorDir = fDir.right;
 				}
 			} 
 			if (level[# i,j+1] == 0) {
 				if (!position_meeting(i*GRID,(j+1)*GRID,Solid)) {
-					var sl = instance_create_depth(i*GRID,(j+1)*GRID,0,Solid);
+					var sl = instance_create_depth(i*GRID,(j+1)*GRID,depth,Solid);
 						sl.floorDir = fDir.up;
 				}
 			} 
 			if (level[# i,j-1] == 0) {
 				if (!position_meeting(i*GRID,(j-1)*GRID,Solid)) {
-					var sl = instance_create_depth(i*GRID,(j-1)*GRID,0,Solid);
+					var sl = instance_create_depth(i*GRID,(j-1)*GRID,depth,Solid);
 						sl.floorDir = fDir.down;
 				}
 			}
@@ -367,8 +367,12 @@ with(Camera) {
 
 
 
-mapSurf = surface_create(levelw,levelh);
+mapSurf = surface_create(levelw*4,levelh*4);
 surface_set_target(mapSurf);
+draw_set_alpha(0.5);
+draw_set_colour(c_black);
+draw_rectangle(0,0,levelw*4,levelh*4,false);
+draw_set_alpha(1);
 for(var i = 0; i < levelw; i++) {
 	for(var j = 0; j < levelh; j++) {
 		switch(level[# i,j]) {
@@ -377,10 +381,10 @@ for(var i = 0; i < levelw; i++) {
 				break;
 			case 1:
 				draw_set_colour(c_white);
+				draw_rectangle(i*4,j*4,i*4+4,j*4+4,-1);
 				break;
 		}
-		draw_rectangle(i,j,i+1,j+1,-1);
 	}
 }
-
 surface_reset_target();
+showMap = true;

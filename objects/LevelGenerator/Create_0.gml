@@ -111,7 +111,7 @@ while(ds_list_size(unreached) > 0) {
 for(var i = 0; i < levelw; i++) {
 	for(var j = 0; j < levelh; j++) { 
 		if(level[# i,j] == 0 || level[# i,j] == 2) {
-			instance_create_depth(i*32,j*32,0,Solid);
+			instance_create_depth(i*32,j*32,depth,Solid);
 		}
 	}
 }

@@ -19,18 +19,21 @@ if (instance_exists(Player)) {
 	}
 }
 
-if(keyboard_check_pressed(ord("1"))) {
-	instance_create_layer(mouse_x,mouse_y,"Instances",Dummy);
-}
+if (!global.release) {
+	if(keyboard_check_pressed(ord("1"))) {
+		instance_create_layer(mouse_x,mouse_y,"Instances",Dummy);
+	}
 
-if (keyboard_check_pressed(ord("2"))) {
-	shake = 0.5;
-	shakeAngle = 0.5;
-	shakeZoom = 0.5;
-}
 
-if (keyboard_check_pressed(ord("3"))) {
-	instance_create_layer(mouse_x,mouse_y, "Instances", randomCollectible);
+	if (keyboard_check_pressed(ord("2"))) {
+		shake = 0.5;
+		shakeAngle = 0.5;
+		shakeZoom = 0.5;
+	}
+
+	if (keyboard_check_pressed(ord("3"))) {
+		instance_create_layer(mouse_x,mouse_y, "Instances", randomCollectible);
+	}
 }
 
 shake = Approach(shake,0,1/60);

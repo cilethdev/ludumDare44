@@ -13,7 +13,7 @@ for(var i = 0; i < ds_list_size(splashList); i ++) {
 		hitFlash = 15;
 		vx = 0;
 		vy = 0;
-		sm_change(state,EnemyStun)
+		sm_change(state,frozenAction)
 		var dt = instance_create_layer(x,bbox_top,"Instances",DmgText);
 			dt.text = string(other.dmg);
 			dt.owner = id;

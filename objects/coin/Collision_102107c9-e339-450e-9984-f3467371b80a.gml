@@ -1,6 +1,12 @@
 /// @description 
 instance_destroy();
 
+
+var hText = instance_create_layer(other.x,other.y-32,"Instances",DmgText);
+	hText.col = c_lime;
+	hText.text = "+1";
+	hText.owner = other.owner;
+
 player.hp += value;
 
 // SFX

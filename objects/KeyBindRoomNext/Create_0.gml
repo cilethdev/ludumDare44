@@ -1,0 +1,2 @@
+/// @description 
+wait = 30;

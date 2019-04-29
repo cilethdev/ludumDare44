@@ -1,0 +1,1 @@
+text = GetKeyString(InputManager.spell2) + " - COIN SHIELD";

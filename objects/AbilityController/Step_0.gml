@@ -1,5 +1,5 @@
 /// @description 
-for(var i = 0; i < 6; i ++) {
+for(var i = 0; i < 5; i ++) {
 	// cool down
 	if (ability[i,abilProp.cdT] > 0) {
 		ability[i,abilProp.cdT]--;

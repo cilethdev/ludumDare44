@@ -31,6 +31,8 @@ if (spellCastT > 0) {
 	//	fb.image_angle = targetDir;
 	//	fb.dmg = round(5 + (ap * 0.75));
 	script_execute(abilities.spell[abilities.ability[currentAbility,abilProp.spell],spellProps.scr])
+	
+	PlayerTakeDamage(abilities.spell[abilities.ability[currentAbility,abilProp.spell],spellProps.cost],"");
 		
 	
 	abilities.ability[currentAbility,abilProp.canUse] = false;

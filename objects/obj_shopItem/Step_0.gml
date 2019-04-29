@@ -13,9 +13,10 @@ if (instance_exists(Player)) {
 			PlayerTakeDamage(price,"light");
 			
 			// 
-			var itm = instance_create_depth(x,y,depth,Item);
-				itm.item = item;
-				itm.sprite_index = sprite_index;
+			//var itm = instance_create_depth(x,y,depth,Item);
+			//	itm.item = item;
+			//	itm.sprite_index = sprite_index;
+			editItemInventory(Player,Player.inv.inventory,item,1);
 				
 			with(owner) {
 				for(var i = 0; i < ds_list_size(itemIds); i++) {

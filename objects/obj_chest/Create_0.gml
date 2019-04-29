@@ -18,3 +18,6 @@ inc = 3;
 amp = 3;
 textOffset = 0;
 
+maxLoot = 2;
+lootDropRate = 0.6;
+

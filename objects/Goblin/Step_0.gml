@@ -1,4 +1,8 @@
 /// @description 
+if (spawnDelay) {
+	spawnDelay--;
+	exit;
+}
 if (hp <= 0) {
 	if (!hitFlash) {
 		instance_destroy();

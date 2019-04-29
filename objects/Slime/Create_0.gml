@@ -15,7 +15,7 @@ yscale = 1;
 facing = 1;
 
 // attack
-attackRange = 8;
+attackRange = 80;
 attack = false;
 attackDur = 12;
 attackCD = 60;
@@ -23,7 +23,7 @@ attackCD = 60;
 moveSpd = 1;
 vJump = -3.5;
 
-dmg = 2;
+dmg = 5;
 dmgType = "light";
 
 frozenAction = SlimeFrozen;

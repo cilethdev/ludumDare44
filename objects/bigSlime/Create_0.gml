@@ -5,10 +5,10 @@ hpMax = enemyBaseHealth.medium;
 depth = -y;
 
 // attack
-attackRange = 12;
+attackRange = 80;
 attack = false;
-attackDur = 10;
-attackCD = 100;
+attackDur = 60;
+attackCD = 120;
 
 moveSpd = 0.5;
 vJump = -5.5;

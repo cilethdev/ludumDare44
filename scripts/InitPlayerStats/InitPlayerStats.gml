@@ -5,7 +5,7 @@ for(var i = 0;i < numProps; i++){
 
 base[itemProps.hp] = 50;
 base[itemProps.ms] = 3;
-base[itemProps.ad] = 3;
+base[itemProps.ad] = 2;
 base[itemProps.explodDmg] = 3;
 
 

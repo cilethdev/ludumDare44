@@ -15,7 +15,7 @@ if (!instance_exists(Player)) {
 		path_end()
 	}
 
-	pathCheckT = (pathCheckT + 1) mod 60;
+	pathCheckT = (pathCheckT + 1) mod 15;
 	if (pathCheckT == 1) {
 	
 		path_delete(movePath);
