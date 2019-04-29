@@ -20,7 +20,7 @@ if (hp <= 0 && !dead) {
 if (dead) {
 	destroyT--;
 	hitFlash = 1;
-	if (destroyT <= 0) {
+	if (destroyT <= 1) {
 		instance_destroy();
 	}
 }

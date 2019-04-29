@@ -1,2 +1,6 @@
 /// @description 
-fadeA = 0;
+a = 0;
+if (instance_exists(DungeonGenerator)) {
+	DungeonGenerator.showMap = false;
+}
+ended = false;

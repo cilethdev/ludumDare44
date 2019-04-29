@@ -2,6 +2,9 @@
 if (room != rm_test && room != level_1 && room != level_2 && room != level_3) {
 	exit;
 }
+if (instance_exists(PlayerDeath) || instance_exists(GameOver)) {
+	exit;
+}
 
 if (keyboard_check_pressed(vk_escape)) {
 	paused = !paused;

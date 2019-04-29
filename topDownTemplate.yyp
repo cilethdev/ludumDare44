@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "08241291-be5f-4433-be4a-b1f77b4bb071",
+            "Value": {
+                "id": "198f7176-4ffa-47e3-b275-849d1c0470bf",
+                "resourcePath": "sprites\\spr_thanks\\spr_thanks.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0862c2fd-32b9-4f1b-99ba-f0aa058e4cca",
             "Value": {
                 "id": "aa11c964-b1d5-4ee3-9043-88b42ab23164",
@@ -268,6 +276,14 @@
                 "id": "3afc3047-620c-4a67-8dad-ca9a6b733a2e",
                 "resourcePath": "rooms\/rm_init\/rm_init.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "1188f65d-79bf-4027-809d-a1fa20d9ae23",
+            "Value": {
+                "id": "c39caa90-f8e9-446c-87b7-42326234cd9b",
+                "resourcePath": "objects\\ThanksForPlaying\\ThanksForPlaying.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1191,6 +1207,14 @@
             }
         },
         {
+            "Key": "57d0b3f7-adc0-44e9-bc11-6a649d4c9aea",
+            "Value": {
+                "id": "459925af-5937-430c-bc32-f4aa345d0dde",
+                "resourcePath": "rooms\\rm_thanks\\rm_thanks.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "587237a1-c5ca-4a31-aec7-76580a344a97",
             "Value": {
                 "id": "e71ba8d0-f2dc-4974-82f8-966c4fe047b5",
@@ -1532,6 +1556,14 @@
                 "id": "22852665-c459-45ff-a833-ecf3cf60ac9c",
                 "resourcePath": "scripts\\scr_makeItRain\\scr_makeItRain.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "73c90b5c-90b8-4b4b-b57f-71c99ee94f52",
+            "Value": {
+                "id": "e0cb9385-36e7-4a0a-bc4d-3a16df8dd52e",
+                "resourcePath": "objects\\GameOver\\GameOver.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2180,6 +2212,14 @@
                 "id": "546dd30e-3be7-4472-a825-76be51164a85",
                 "resourcePath": "views\/ad735b6d-8e71-4954-8df3-915b1c22857a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ad8e1018-22cf-4873-abf6-725545bf319d",
+            "Value": {
+                "id": "4aec23bf-2e89-4ff8-858b-274aa5fd129f",
+                "resourcePath": "sprites\\spr_gameOver\\spr_gameOver.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
