@@ -4,3 +4,6 @@ with(par_menuItem) {
 	focus = false;
 }
 hover = true;
+
+// SFX
+PlaySound(snd_menuHover,1,1,0);

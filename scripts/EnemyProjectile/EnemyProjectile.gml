@@ -1,6 +1,6 @@
 var atk = argument0
 if (!atk) {
-	atk = choose(0,1);
+	atk = 0;
 }
 
 if (atk == 0) {

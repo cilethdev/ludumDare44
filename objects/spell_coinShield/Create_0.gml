@@ -11,3 +11,6 @@ for(var i = 0; i < 3; i++) {
 	c.dmg = 2;
 	ds_list_add(coins,c.id);
 }
+
+// SFX
+PlaySound(snd_fireBall_start,1,1,0);

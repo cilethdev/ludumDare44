@@ -17,6 +17,9 @@ switch(state) {
 			UpdateKeybind(target.key,keyboard_lastkey);
 			target.inputText = GetKeyString(keyboard_lastkey);
 			wait = 10;
+			
+			// SFX
+			PlaySound(snd_menuRelease,1,1,0);
 		}
 		
 		if (mouse_check_button(mb_left) || mouse_check_button(mb_right)) {
@@ -27,6 +30,10 @@ switch(state) {
 			UpdateKeybind(target.key,mouse_lastbutton);
 			target.inputText = GetKeyString(mouse_lastbutton);
 			wait = 10;
+			
+	
+			// SFX
+			PlaySound(snd_menuRelease,1,1,0);
 		}
 	break;
 }

@@ -1,5 +1,5 @@
 /// @description  
-if (drawLockedText) {
+if (drawLockedText && image_speed = 0) {
 	draw_text(x,y-80,"YOU NEED A KEY TO UNLOCK THIS");
 }
 

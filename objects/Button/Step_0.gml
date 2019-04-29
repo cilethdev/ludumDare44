@@ -14,4 +14,7 @@ if (hover) {
 }
 if (mouse_check_button_pressed(mb_left) && hover) {
 	ExecuteButtonFunction();
+	
+	// SFX
+	PlaySound(snd_menuClick,1,1,0);
 }

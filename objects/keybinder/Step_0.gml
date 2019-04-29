@@ -19,6 +19,10 @@ if (!controller.wait && hover && mouse_check_button_released(mb_left)) {
 	hover = false;
 	controller.state = controller.EDIT;
 	controller.target = id;
+	
+	
+	// SFX
+	PlaySound(snd_menuClick,1,1,0);
 }
 
 if (wait) {

@@ -17,3 +17,10 @@ repeat(abs(vy)) {
 		break;
 	}
 }
+
+if (hp <= 0) {
+	instance_destroy();
+}
+if (hitFlash) {
+	hitFlash--;
+}

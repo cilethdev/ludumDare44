@@ -1,4 +1,2 @@
 /// @description 
-x = mouse_x;
-y = mouse_y;
-depth = -10000;
+Singleton();

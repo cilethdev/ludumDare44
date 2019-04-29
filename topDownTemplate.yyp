@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "0fa6493a-6eab-4557-a06c-030797519fbb",
+            "Value": {
+                "id": "07563002-a9fc-4806-ac24-732c8df57693",
+                "resourcePath": "sprites\\spr_goblinWalk\\spr_goblinWalk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0fb7d919-9023-41da-8a29-4beb5b4263d8",
             "Value": {
                 "id": "b82f6fa0-3321-4d65-8a9f-4e2881131bfb",
@@ -244,6 +252,14 @@
                 "id": "3afc3047-620c-4a67-8dad-ca9a6b733a2e",
                 "resourcePath": "rooms\/rm_init\/rm_init.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "12c3b5b3-6b51-4fae-989e-931f6d28d404",
+            "Value": {
+                "id": "605a5b58-ddc5-4fe3-af4b-ea3d202f6ced",
+                "resourcePath": "sprites\\spr_trollIdle\\spr_trollIdle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -483,6 +499,14 @@
             "Value": {
                 "id": "74c08f54-e689-4c55-96a5-10fc1fee0a68",
                 "resourcePath": "sprites\/spr_muteCheckbox\/spr_muteCheckbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "263c8370-4901-4ae4-82d1-406ef86f667f",
+            "Value": {
+                "id": "2a8e90fc-f611-44c5-8c01-36359219271f",
+                "resourcePath": "sprites\\spr_trollWalk\\spr_trollWalk.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1639,6 +1663,14 @@
             }
         },
         {
+            "Key": "8754ee66-89e2-457b-abab-1fd5f591eed9",
+            "Value": {
+                "id": "c57d7dc4-78d5-4d93-b930-291edf152895",
+                "resourcePath": "scripts\\PlayMusic\\PlayMusic.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "887f80f1-3739-41b1-be0e-319e7b48830a",
             "Value": {
                 "id": "5e81e30c-88e1-4bc3-be74-0e0aa97b8edd",
@@ -1956,6 +1988,14 @@
                 "id": "88e81b1f-e5a6-4a67-8339-437c90d27606",
                 "resourcePath": "objects\/ProjectileEnemy\/ProjectileEnemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a4c4491b-06d0-45cb-afa8-004005de0f08",
+            "Value": {
+                "id": "f43b531c-f3ba-4ef6-8b54-ac89b8326783",
+                "resourcePath": "views\\a4c4491b-06d0-45cb-afa8-004005de0f08.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -3298,6 +3338,7 @@
         "444cd3cf-58ac-4a7d-99cf-74f7827e6867",
         "1b2d7197-ce39-4b7a-bf6a-f10653085b3d",
         "bb47e3a5-002c-4d68-ac62-d6b7a32b7735",
+        "8754ee66-89e2-457b-abab-1fd5f591eed9",
         "8be063bb-9777-45a7-a67c-76fd05a37ce8",
         "f0727b47-bb2b-429f-8e24-0d411aac3c9e",
         "978b86b5-7a0e-4c97-a88c-49791c1062d0",

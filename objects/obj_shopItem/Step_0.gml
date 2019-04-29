@@ -25,5 +25,8 @@ if (instance_exists(Player)) {
 				}
 			}
 		}
+		
+		// SFX
+		PlaySound(snd_itemBuy,1,1,0);
 	} 	
 }

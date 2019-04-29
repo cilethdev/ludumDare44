@@ -6,7 +6,8 @@
     "children": [
         "444cd3cf-58ac-4a7d-99cf-74f7827e6867",
         "1b2d7197-ce39-4b7a-bf6a-f10653085b3d",
-        "bb47e3a5-002c-4d68-ac62-d6b7a32b7735"
+        "bb47e3a5-002c-4d68-ac62-d6b7a32b7735",
+        "8754ee66-89e2-457b-abab-1fd5f591eed9"
     ],
     "filterType": "GMScript",
     "folderName": "Audio",

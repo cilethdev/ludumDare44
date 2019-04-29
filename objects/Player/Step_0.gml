@@ -17,3 +17,11 @@ if (canHitT == 0) {
 	canHit = true;
 	hitFlashT = 0;
 }
+
+if (dashCD > 0) {
+	dashCD--;
+}
+if (dashCD == 0) {
+	canDash = true;
+	dashCD = -1;
+}

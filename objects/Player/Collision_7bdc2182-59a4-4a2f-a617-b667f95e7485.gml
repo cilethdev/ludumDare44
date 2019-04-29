@@ -5,6 +5,10 @@ if (controller.kInteract) {
 	with(other) {
 		instance_destroy();
 	}
+	
+	// SFX
+	PlaySound(snd_itemPickup,1,1,0);
+	
 	/*
 	// below here is old code that will be deleted.
 	var openIndex = -1;

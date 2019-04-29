@@ -12,3 +12,8 @@ lightRadius = 64;
 dmg = 6;
 
 CamShake(0.25,0,0);
+
+
+// SFX
+PlaySound(snd_fireBall_start,1,1,0);
+PlaySound(snd_fireBall_travel,1,1,0);
