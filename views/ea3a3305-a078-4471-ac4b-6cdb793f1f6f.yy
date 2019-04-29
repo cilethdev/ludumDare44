@@ -8,7 +8,9 @@
         "674bfd2a-5c9d-4fff-acc9-e13904cd3f32",
         "3af7531b-246a-47c0-aa55-d3712a248792",
         "d02a706c-a1e4-4ae0-8d80-dbdf7de3992a",
-        "557bfeb1-4d08-4801-95b3-60470d264752"
+        "557bfeb1-4d08-4801-95b3-60470d264752",
+        "bac3547d-ac0e-49fc-aaa3-47355810b87b",
+        "235fa6d8-5a5d-4ccc-bd88-ed74dde096f5"
     ],
     "filterType": "GMSound",
     "folderName": "Spell",

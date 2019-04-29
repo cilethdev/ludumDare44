@@ -1,0 +1,1 @@
+text = GetKeyString(InputManager.spell3) + " - MAKE IT RAIN";

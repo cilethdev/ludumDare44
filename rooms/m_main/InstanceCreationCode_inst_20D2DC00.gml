@@ -1,4 +1,4 @@
 type = bType.goto;
-rm = level_1;
+rm = rm_keyBinds;
 text = "PLAY";
 menuPos = 0;

@@ -1,0 +1,1 @@
+text = GetKeyString(InputManager.down) + " - MOVE DOWN";

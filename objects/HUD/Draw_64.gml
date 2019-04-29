@@ -33,7 +33,7 @@ if (instance_exists(Player)) {
 	
 	// Key
 	if (Player.hasKey) {
-		draw_sprite_ext(spr_key2,0,16,64,1,1,0,c_white,1);
+		draw_sprite_ext(spr_key2,0,24,64,1,1,0,c_white,1);
 	}
 }
 

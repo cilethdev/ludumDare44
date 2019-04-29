@@ -1,0 +1,1 @@
+text = GetKeyString(InputManager.atk1) + " - BASIC ATTACK";
