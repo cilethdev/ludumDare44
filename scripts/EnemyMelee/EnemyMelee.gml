@@ -2,7 +2,7 @@ if (sm_onEnter(state)) {
 	attackT = attackDur;
 	if (instance_exists(Player) && Player.canHit) {
 		signal_emit("PlayerHit");
-		PlayerTakeDamage(dmg, dmgType);
+		PlayerTakeDamage(dmg, dmgType,false);
 	}
 	
 	if (debug) image_blend = c_lime;

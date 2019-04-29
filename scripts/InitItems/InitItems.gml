@@ -21,7 +21,7 @@ global.items[items.silverSpoon, itemProps.value] = 100;
 createBaseCollectible(items.skiMask, "Ski Mask", "Potentially not the best attire for going to the bank", spr_skiMask);
 global.items[items.skiMask, itemProps.atmBonus] = 25;
 
-createBaseCollectible(items.heelies, "Heelies", "Sneakers that give great speed and swag.", spr_heelies);
+createBaseCollectible(items.heelies, "Hightops", "Sneakers that give great speed and swag.", spr_heelies);
 global.items[items.heelies, itemProps.ms] = 0.5;
 global.items[items.heelies, itemProps.rarity] = 13;
 
@@ -41,7 +41,7 @@ global.items[items.targettedInvestment, itemProps.rarity] = 7;
 global.items[items.targettedInvestment, itemProps.homing] = .2;
 
 
-createBaseCollectible(items.piggyBank, "Piggy Bank", "A difficult way to store a little money.", spr_targettedInvestment);
+createBaseCollectible(items.piggyBank, "Piggy Bank", "A difficult way to store a little money.", spr_piggyBank);
 global.items[items.piggyBank, itemProps.rarity] = 15;
 global.items[items.piggyBank, itemProps.hp] = 10;
 

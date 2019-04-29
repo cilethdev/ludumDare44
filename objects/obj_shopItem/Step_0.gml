@@ -10,7 +10,7 @@ if (collision_rectangle(x-4,y-4,x+36,y+36,Player,false,true)) {
 if (instance_exists(Player)) {
 	if (showPrice && InputManager.kInteract) {
 		if (Player.hp > price) {
-			PlayerTakeDamage(price,"light");
+			PlayerTakeDamage(price,"light",true);
 			
 			// 
 			//var itm = instance_create_depth(x,y,depth,Item);
