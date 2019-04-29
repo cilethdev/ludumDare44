@@ -14,7 +14,7 @@ for(var i = 0; i < ds_list_size(splashList); i ++) {
 		vx = 0;
 		vy = 0;
 		sm_change(state,EnemyStun)
-		var dt = instance_create_depth(x,bbox_top,-10000,DmgText);
+		var dt = instance_create_layer(x,bbox_top,"Instances",DmgText);
 			dt.text = string(other.dmg);
 			dt.owner = id;
 			dt.col = make_colour_hsv(190,180,255);

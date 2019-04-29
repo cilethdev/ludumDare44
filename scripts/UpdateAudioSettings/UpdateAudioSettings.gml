@@ -10,3 +10,5 @@ ini_write_real("audio","music",global.musicV);
 ini_write_real("audio","sfx",global.sfxV);
 ini_write_real("audio","mute",global.mute);
 ini_close();
+
+audio_sound_gain(global.currentTrack,((global.musicV*global.masterV))*global.mute,0);

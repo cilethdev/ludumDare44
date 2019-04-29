@@ -21,13 +21,13 @@ if (!onGround) {
 	vz = 0;
 }
 
-if (controller.kJumpP && onGround) {
-	vz = vJump;
+//if (controller.kJumpP && onGround) {
+//	vz = vJump;
 	
-	// VFX
-	xscale = 0.5;
-	yscale = 1.5;
-}
+//	// VFX
+//	xscale = 0.5;
+//	yscale = 1.5;
+//}
 
 if (controller.kSpell1 && abilities.ability[abils.spell1,abilProp.canUse] && onGround) {
 	currentSpell = abilities.ability[abils.spell1,abilProp.spell];
@@ -54,7 +54,7 @@ if (controller.kHeal && abilities.ability[abils.heal,abilProp.canUse] &&  onGrou
 }
 
 
-if (controller.kDashP && onGround) {
+if (controller.kDashP && onGround && canDash) {
 	sm_change(state,PlayerDash);
 }
 
@@ -86,8 +86,25 @@ if (controller.kAtk1 && abilities.ability[abils.atk1,abilProp.canUse]) {
 		}
 		swingOffsetTarget *= -1;
 	}
+	
+	// SFX
+	PlaySound(snd_fireBall_start,0.5,random_range(1.1,1.3),0);
 }
 
+// FOOTSTEPS
+if (sprite_index == spr_heroRun) {
+	var frame = floor(image_index);
+	if (frame == 0 || frame == 3) {
+		if (!footstep) {
+			footstep = true;
+			// SFX
+			var snd = irandom(7);
+			PlaySound(footStepSounds[snd],1,random_range(0.8,1.2),0);
+		}
+	} else {
+		footstep = false;
+	}
+}
 if (sm_onExit(state)) {
 	
 }

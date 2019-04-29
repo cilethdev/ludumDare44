@@ -17,6 +17,8 @@ fric = 0.25;
 vDash = 10;
 dashT = 0;
 dashDur = 12;
+dashCD = 60;
+canDash = true;
 
 // Spells
 wpn = instance_create_depth(x,y,depth,obj_staff)
@@ -44,6 +46,13 @@ hitFlash = 0;
 hitFlashT = 0;
 destroyT = 0;
 dead = false;
+
+// Footsteps
+footstep = false;
+footStepSounds = [snd_step1,snd_step2,snd_step3,snd_step4,snd_step5,snd_step6,snd_step7,snd_step8];
+
+// Hit
+hitSounds = [snd_player_hit1,snd_player_hit2,snd_player_hit3,snd_player_hit4];
 
 // Lighting
 lightCol = make_colour_hsv(40,0,175);

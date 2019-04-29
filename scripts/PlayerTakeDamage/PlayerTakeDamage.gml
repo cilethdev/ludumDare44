@@ -25,7 +25,10 @@ switch(_str) {
 		break;
 }
 
-var dt = instance_create_depth(x,y-32,-10000,DmgText);
+var dt = instance_create_layer(x,bbox_top,"Instances",DmgText);
 	dt.text = "-"+string(_dmg);
 	dt.owner = id;
 	dt.col = make_colour_hsv(255,255,255);
+	
+// SFX
+PlaySound(Player.hitSounds[irandom(3)],1,1,0);

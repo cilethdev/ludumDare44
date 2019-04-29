@@ -14,6 +14,11 @@ if (!instance_exists(Player)) {
 		// VFX
 		xscale = 0.5;
 		yscale = 1.5;
+		
+		// SFX
+		if (object_index == BigSlime) {
+			PlaySound(snd_slime_jump,0.5,1,0);
+		}
 	}
 	
 	facing = Player.x > x ? 1 : -1;

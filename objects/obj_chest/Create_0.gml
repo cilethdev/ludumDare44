@@ -4,7 +4,7 @@ depth = -y;
 
 var mimicChance = irandom(100);
 
-if (mimicChance) {
+if (mimicChance < 20) {
 	isMimic = true;
 } else {
 	isMimic = false;

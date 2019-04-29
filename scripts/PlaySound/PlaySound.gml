@@ -1,4 +1,4 @@
-/// @param PlaySound(snd,volume,pitch,loop);
+/// @desc PlaySound(snd,volume,pitch,loop);
 /// @arg snd
 /// @arg volume
 /// @arg pitch

@@ -18,6 +18,9 @@ if (collision_rectangle(x-48,y-32,x+48,y+48,Player,false,true)){
 			repeat(irandom_range(15,20)) {
 				instance_create_depth(x+random_range(-24,24),y-random_range(4,8),depth-32,coin);
 			}
+			
+			// SFX
+			PlaySound(snd_itemChestOpen,1,1,0);
 		}
 	}
 } else {
