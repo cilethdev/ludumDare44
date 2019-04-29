@@ -40,6 +40,11 @@ createBaseCollectible(items.targettedInvestment, "Targetted Investment", "An exp
 global.items[items.targettedInvestment, itemProps.rarity] = 7;
 global.items[items.targettedInvestment, itemProps.homing] = .2;
 
+
+createBaseCollectible(items.piggyBank, "Piggy Bank", "A difficult way to store a little money.", spr_targettedInvestment);
+global.items[items.piggyBank, itemProps.rarity] = 15;
+global.items[items.piggyBank, itemProps.hp] = 10;
+
 // calculates the total rarity sum. this needs to stay after all item initiation.
 global.itemRaritySum = 0;
 for(var i = 0; i < items.length; i++){

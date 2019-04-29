@@ -6,6 +6,8 @@ if (controller.kInteract) {
 		instance_destroy();
 	}
 	
+	maxHp = stats.stats[itemProps.hp];
+	
 	// SFX
 	PlaySound(snd_itemPickup,1,1,0);
 	

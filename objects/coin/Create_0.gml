@@ -1,7 +1,7 @@
 /// @description 
 image_index = 1;
 image_speed = 0;
-value = 5;
+value = 1;
 
 depth = -y;
 z = 0;

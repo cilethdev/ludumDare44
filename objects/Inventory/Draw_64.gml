@@ -1,4 +1,7 @@
 /// @description 
+// safe get the surface
+inventorySurface = surface_exists(inventorySurface) ? inventorySurface : surface_create(maxInvWidth, 500);
+
 surface_set_target(inventorySurface);
 draw_clear_alpha(c_white,0);
 	// set surface to be the inventory plank.

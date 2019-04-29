@@ -30,7 +30,7 @@ if (vz == 0) {
 	}
 }
 
-if(!is_undefined(player)){
+if(instance_exists(player)){
 		// check if the stat is non 0
 		var magnetStrength = player.stats.stats[itemProps.magnet] ;
 		if(magnetStrength != 0){
@@ -44,4 +44,7 @@ if(!is_undefined(player)){
 			x += mvx;
 			y += mvy;
 		}
+}
+else {
+var guarantee = "hello ther";	
 }

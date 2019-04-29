@@ -208,25 +208,25 @@ for(var i = 0; i < levelw; i++) {
 		if (level[# i,j] == 1) {
 			if (level[# i+1,j] == 0) {
 				if (!position_meeting((i+1)*GRID,j*GRID,Solid)) {
-					var sl = instance_create_depth((i+1)*GRID,j*GRID,0,Solid);
+					var sl = instance_create_depth((i+1)*GRID,j*GRID,depth,Solid);
 						sl.floorDir = fDir.left;
 				}
 			} 
 			if (level[# i-1,j] == 0) {
 				if (!position_meeting((i-1)*GRID,j*GRID,Solid)) {
-					var sl = instance_create_depth((i-1)*GRID,j*GRID,0,Solid);
+					var sl = instance_create_depth((i-1)*GRID,j*GRID,depth,Solid);
 						sl.floorDir = fDir.right;
 				}
 			} 
 			if (level[# i,j+1] == 0) {
 				if (!position_meeting(i*GRID,(j+1)*GRID,Solid)) {
-					var sl = instance_create_depth(i*GRID,(j+1)*GRID,0,Solid);
+					var sl = instance_create_depth(i*GRID,(j+1)*GRID,depth,Solid);
 						sl.floorDir = fDir.up;
 				}
 			} 
 			if (level[# i,j-1] == 0) {
 				if (!position_meeting(i*GRID,(j-1)*GRID,Solid)) {
-					var sl = instance_create_depth(i*GRID,(j-1)*GRID,0,Solid);
+					var sl = instance_create_depth(i*GRID,(j-1)*GRID,depth,Solid);
 						sl.floorDir = fDir.down;
 				}
 			}

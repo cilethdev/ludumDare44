@@ -24,3 +24,8 @@ if (dead) {
 		instance_destroy();
 	}
 }
+
+// cap hp
+if( hp > maxHp){
+	hp = maxHp
+}
