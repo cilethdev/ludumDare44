@@ -3,6 +3,6 @@
 if (instance_exists(Player)) {
 	if (Player.canHit && dashing) {
 		signal_emit("PlayerHit");
-		PlayerTakeDamage(dmg,dmgType);
+		PlayerTakeDamage(dmg,dmgType,false);
 	}
 }

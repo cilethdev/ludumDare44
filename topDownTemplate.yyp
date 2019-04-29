@@ -727,6 +727,14 @@
             }
         },
         {
+            "Key": "33a21889-4178-4a3c-977c-8f9bb83c60bd",
+            "Value": {
+                "id": "d56e2015-2371-4eb1-9a7d-97adb418ee20",
+                "resourcePath": "sprites\\spr_piggyBank\\spr_piggyBank.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "33d89657-7277-4e4c-a282-9fe527e16639",
             "Value": {
                 "id": "6e8ff141-8042-4908-bfea-813dc8f89102",

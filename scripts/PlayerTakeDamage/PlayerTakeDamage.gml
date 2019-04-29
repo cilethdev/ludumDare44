@@ -3,11 +3,22 @@
 /// @arg strength
 var _dmg = argument0;
 var _str = argument1;
+var pureDamage = argument2;
 
 if (instance_exists(Player)) {
 	with(Player) {
+		if(!pureDamage){
+			_dmg = max(1, floor(_dmg - stats.stats[itemProps.armor]));
+		}
+		
 		hp -= _dmg;
 		hitFlash = 15;
+		
+		var dt = instance_create_layer(x,bbox_top,"Instances",DmgText);
+		dt.text = "-"+string(_dmg);
+		dt.owner = id;
+		dt.col = make_colour_hsv(255,255,255);
+		
 	}
 }
 
@@ -25,10 +36,7 @@ switch(_str) {
 		break;
 }
 
-var dt = instance_create_layer(x,bbox_top,"Instances",DmgText);
-	dt.text = "-"+string(_dmg);
-	dt.owner = id;
-	dt.col = make_colour_hsv(255,255,255);
+
 	
 // SFX
 PlaySound(Player.hitSounds[irandom(3)],1,1,0);

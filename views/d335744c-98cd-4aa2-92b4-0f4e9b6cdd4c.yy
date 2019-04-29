@@ -11,7 +11,8 @@
         "392ca1d8-0326-4a7f-9b98-3dd006cb607d",
         "4ddc3a69-e240-4fe3-9b2d-63ba1bed0d5a",
         "54be8b2d-d6d2-41cf-b348-41b48a51a9fe",
-        "587237a1-c5ca-4a31-aec7-76580a344a97"
+        "587237a1-c5ca-4a31-aec7-76580a344a97",
+        "33a21889-4178-4a3c-977c-8f9bb83c60bd"
     ],
     "filterType": "GMSprite",
     "folderName": "Collectibles",
