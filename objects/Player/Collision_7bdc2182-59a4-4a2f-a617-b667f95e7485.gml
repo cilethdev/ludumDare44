@@ -2,6 +2,9 @@
 if (!other.canPickup) { exit; };
 if (controller.kInteract) {
 	editItemInventory(self,inv.inventory,other.item,1);
+	if(other.item == items.piggyBank){
+		hp += global.items[items.piggyBank,itemProps.hp];	
+	}
 	with(other) {
 		instance_destroy();
 	}
