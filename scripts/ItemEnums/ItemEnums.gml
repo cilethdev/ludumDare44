@@ -6,7 +6,7 @@ enum items {
 	crookedScale,
 	silverSpoon,
 	skiMask, // 
-	//piggyBank, // 
+	// // 
 	//bloodMoney, //
 	
 	// offensive
@@ -16,6 +16,7 @@ enum items {
 	twoDollarBill,
 	magnet,
 	targettedInvestment,
+	piggyBank,
 	
 	length
 }
