@@ -1551,6 +1551,14 @@
             }
         },
         {
+            "Key": "72cf422c-dd03-4e18-8b38-eed185f69623",
+            "Value": {
+                "id": "17b7042b-cdd9-4f31-aca9-0f47a979da06",
+                "resourcePath": "scripts\\drawFancyText\\drawFancyText.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "731205bc-ef8e-4d0b-943d-0787543ebef9",
             "Value": {
                 "id": "22852665-c459-45ff-a833-ecf3cf60ac9c",
@@ -3560,7 +3568,8 @@
         "aef8e24b-5f16-46b8-a311-fe2694a7b940",
         "6949239a-6346-46b6-9418-dee3f7d72af7",
         "32666174-5fe2-4079-95d5-1b2c94d061c8",
-        "a19cb43c-ce91-42a5-89b2-0efb59ff1041"
+        "a19cb43c-ce91-42a5-89b2-0efb59ff1041",
+        "72cf422c-dd03-4e18-8b38-eed185f69623"
     ],
     "tutorial": ""
 }

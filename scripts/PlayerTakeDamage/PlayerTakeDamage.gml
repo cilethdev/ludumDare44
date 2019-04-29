@@ -7,9 +7,15 @@ var pureDamage = argument2;
 
 if (instance_exists(Player)) {
 	with(Player) {
+		
 		if(!pureDamage){
 			_dmg = max(1, floor(_dmg - stats.stats[itemProps.armor]));
 		}
+		else {
+			stats.damageFromSpells += _dmg; // pure damage is counted in addition to total damage.	
+		}
+		stats.damageRecieved += _dmg;
+		
 		
 		hp -= _dmg;
 		hitFlash = 15;

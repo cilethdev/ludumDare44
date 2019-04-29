@@ -274,7 +274,7 @@ for(var i = 0; i < ds_list_size(roomList); i++) {
 	// Lights
 	switch(cRm[? "base"]) {
 		case rmBase.spawn:
-			instance_create_depth(cRm[? "cx"]*GRID,cRm[? "cy"]*GRID,0,obj_spawnPad);
+			instance_create_depth(cRm[? "cx"]*GRID,cRm[? "cy"]*GRID,depth,obj_spawnPad);
 			
 			// center light
 			var cl = instance_create_layer(cRm[? "cx"]*GRID,cRm[? "cy"]*GRID,"Lights",obj_light);
@@ -352,8 +352,8 @@ for(var i = 0; i < ds_list_size(roomList); i++) {
 
 
 // Fog
-instance_create_depth(0,0,0,FogController);
-instance_create_depth(0,0,0,MoveGrid);
+instance_create_depth(0,0,depth,FogController);
+instance_create_depth(0,0,depth,MoveGrid);
 
 if (!instance_exists(Player)) {
 	instance_create_layer(rmSpawn[? "cx"]*GRID,rmSpawn[? "cy"]*GRID,"Instances",Player);

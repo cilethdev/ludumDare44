@@ -15,6 +15,7 @@ for(var i = 0; i < ds_list_size(splashList); i ++) {
 		vy = 0;
 		sm_change(state,frozenAction)
 		var dt = instance_create_layer(x,bbox_top,"Instances",DmgText);
+			PlayerStats.damageDealt += other.dmg;
 			dt.text = string(other.dmg);
 			dt.owner = id;
 			dt.col = make_colour_hsv(190,180,255);
