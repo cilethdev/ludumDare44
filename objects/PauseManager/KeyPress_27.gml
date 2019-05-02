@@ -1,5 +1,5 @@
 /// @description 
-if (room != rm_test && room != level_1 && room != level_2 && room != level_3) {
+if (room != rm_test && room != level_1 && room != level_2 && room != level_3 && room != level_boss) {
 	exit;
 }
 if (instance_exists(PlayerDeath) || instance_exists(GameOver)) {

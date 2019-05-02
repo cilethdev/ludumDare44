@@ -2,7 +2,9 @@
 with(other) {
 	hp -= other.dmg;
 	var dt = instance_create_layer(x,bbox_top,"Instances",DmgText);
-		PlayerStats.damageDealt += other.dmg;
+		if (instance_exists(PlayerStats)) {
+			PlayerStats.damageDealt += other.dmg;
+		}
 		dt.text = string(other.dmg);
 		dt.owner = id;
 		dt.col = c_white;

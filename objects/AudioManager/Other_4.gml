@@ -10,6 +10,13 @@ switch(room) {
 			PlayMusic(global.currentTrack,1);
 		}
 		break;
+	case level_boss:
+		if (global.currentTrack != music_tbfLoop) {
+			audio_stop_all();
+			global.currentTrack = music_tbfLoop;
+			PlayMusic(global.currentTrack,1);
+		}
+		break;
 	case rm_thanks:
 		if (global.currentTrack != music_dntLoop) {
 			audio_stop_all();
@@ -26,4 +33,5 @@ switch(room) {
 			global.currentTrack = music_mdl;
 			PlayMusic(global.currentTrack,1);
 		}
+		break;
 }

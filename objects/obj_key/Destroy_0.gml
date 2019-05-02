@@ -1,5 +1,8 @@
 /// @description 
 CamShake(0.6,0.5,0.4);
+// SFX
+PlaySound(snd_roomStart,1,0.8,0);
+
 
 var _enemyList = ds_list_create();
 for(var i = 0; i < 6; i++;) {

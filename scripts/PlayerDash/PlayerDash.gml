@@ -1,6 +1,6 @@
 if (sm_onEnter(state)) {
 	canHit = false;
-	var dir = point_direction(x,y-16,mouse_x,mouse_y);
+	var dir = moveDir; //point_direction(x,y-16,mouse_x,mouse_y);
 	moveDir = dir;
 	spd = vDash;
 	vx  = lengthdir_x(vDash,dir);

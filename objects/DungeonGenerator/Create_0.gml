@@ -211,24 +211,32 @@ for(var i = 0; i < levelw; i++) {
 				if (!position_meeting((i+1)*GRID,j*GRID,Solid)) {
 					var sl = instance_create_depth((i+1)*GRID,j*GRID,depth,Solid);
 						sl.floorDir = fDir.left;
+						sl.lx = i-1;
+						sl.ly = j;
 				}
 			} 
 			if (level[# i-1,j] == 0) {
 				if (!position_meeting((i-1)*GRID,j*GRID,Solid)) {
 					var sl = instance_create_depth((i-1)*GRID,j*GRID,depth,Solid);
 						sl.floorDir = fDir.right;
+						sl.lx = i+1;
+						sl.ly = j;
 				}
 			} 
 			if (level[# i,j+1] == 0) {
 				if (!position_meeting(i*GRID,(j+1)*GRID,Solid)) {
 					var sl = instance_create_depth(i*GRID,(j+1)*GRID,depth,Solid);
 						sl.floorDir = fDir.up;
+						sl.lx = i-1;
+						sl.ly = j;
 				}
 			} 
 			if (level[# i,j-1] == 0) {
 				if (!position_meeting(i*GRID,(j-1)*GRID,Solid)) {
 					var sl = instance_create_depth(i*GRID,(j-1)*GRID,depth,Solid);
 						sl.floorDir = fDir.down;
+						sl.lx = i+1;
+						sl.ly = j;
 				}
 			}
 			
@@ -352,7 +360,7 @@ for(var i = 0; i < ds_list_size(roomList); i++) {
 
 
 // Fog
-instance_create_depth(0,0,depth,FogController);
+//instance_create_depth(0,0,depth,FogController);
 instance_create_depth(0,0,depth,MoveGrid);
 
 if (!instance_exists(Player)) {

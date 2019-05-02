@@ -11,5 +11,6 @@ repeat(maxLoot){
 		instance_create_depth(x,y,depth,randomCollectible);
 	}
 }
-
-PlayerStats.enemiesKilled ++;
+if (instance_exists(PlayerStats)) {
+	PlayerStats.enemiesKilled ++;
+}

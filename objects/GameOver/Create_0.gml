@@ -8,3 +8,5 @@ tension = 0.1;
 dampening = 0.2;
 
 textDelay = 90;
+xpos = 320;
+showStats = false;

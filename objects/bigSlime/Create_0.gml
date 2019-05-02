@@ -7,10 +7,10 @@ depth = -y;
 // attack
 attackRange = 80;
 attack = false;
-attackDur = 60;
+attackDur = 90;
 attackCD = 120;
 
-moveSpd = 0.5;
+moveSpd = 1;
 vJump = -5.5;
 
 dmg = 10;

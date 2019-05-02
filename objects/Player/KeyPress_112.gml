@@ -1,5 +1,6 @@
 /// @description 
 // remove item from item effects
+/*
 var itemIndex = -1;
 for(var i = 0; i < array_height_2d(inv.inv); i++) {
 	if(inv.inv[i,invProps.item] != -1) {

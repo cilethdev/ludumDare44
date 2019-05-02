@@ -6,7 +6,9 @@ for(var i = 0; i < ds_list_size(splashList); i ++) {
 	with(splashList[|i]) {
 		hp -= other.dmg;
 		var dt = instance_create_layer(x,bbox_top,"Instances",DmgText);
-			PlayerStats.damageDealt += other.dmg;
+			if (instance_exists(PlayerStats)) {
+				PlayerStats.damageDealt += other.dmg;
+			}
 			dt.text = string(other.dmg);
 			dt.owner = id;
 			dt.col = make_colour_hsv(190,180,255);
@@ -15,6 +17,25 @@ for(var i = 0; i < ds_list_size(splashList); i ++) {
 ds_list_destroy(splashList);
 
 CamShake(0.6,0.25,0.5);
+
+
+if (instance_exists(Boss)) {
+	
+	if (collision_circle(x,y,96,Boss,false,true)) {
+		with(Boss) {
+			hp -= other.dmg;
+		var dt = instance_create_layer(x,bbox_top,"Instances",DmgText);
+			if (instance_exists(PlayerStats)) {
+				PlayerStats.damageDealt += other.dmg;
+			}
+			dt.text = string(other.dmg);
+			dt.owner = id;
+			dt.col = make_colour_hsv(190,180,255);
+		}
+	
+	}
+}
+
 
 // SFX
 PlaySound(snd_fireBall_end,1,1,0);
